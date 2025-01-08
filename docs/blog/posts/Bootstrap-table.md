@@ -1,6 +1,6 @@
 ---
-date created: 2024/12/31 Tue am 10:33:28
-date modified: 2025/01/06 Mon pm 4:27:26
+date created: 2024/12/31 10:33:28
+date modified: 2025/01/08 3:11:42
 ---
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
 
