@@ -45,19 +45,19 @@ ref: [Table Options · Bootstrap Table](https://bootstrap-table.com/docs/api/tab
 
 ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/column-options/#formatter)
 
-為了放在操作欄位用的
-預期吃 `jQuery`、`String` 或 `HTMLElement`
-但有點奇怪的是使用 `HTMLElement` 沒成功？
-所以只好先以 string 處理
+為了放在操作欄位用的  
+預期吃 `jQuery`、`String` 或 `HTMLElement`  
+但有點奇怪的是使用 `HTMLElement` 沒成功？  
+所以只好先以 string 處理  
 
-保險作法：
-因為本人需求不大，放按鈕就好
+保險作法：  
+因為本人需求不大，放按鈕就好  
 所以先用 `HTMLElement` 組好，再用 `.innerHtml` 回傳。
 
 ## 另外用法
 
-checkbox:
-預設的是連 title 都是一個 checkbox
+checkbox:  
+預設的是連 title 都是一個 checkbox  
 希望有自訂 title 名稱可用 detail-formatter 處理。
 
 
@@ -65,14 +65,14 @@ checkbox:
 
 ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/column-options/)
 
-因我的資料是來自 cs，不曉得是否因此造成無法直接寫 `<th></th>` 來取得資料，一定要用 Column Options。
+因我的資料是來自 cs，不曉得是否因此造成無法直接寫 `<th></th>` 來取得資料，一定要用 Column Options。  
 
 - `title`: 標頭名稱、字串
 - `field`: 對應 json 值名稱、字串
 - `align`
 - `valign`
 - `sortable`: 是否啟用單欄排序、bool
-
+  
 - `titleTooltip`: 標頭工具提示、字串
 - `clickToSelect`
 - `formatter`: 方法，配合前面的 operateFormatter 使用
