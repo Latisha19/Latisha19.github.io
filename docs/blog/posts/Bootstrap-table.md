@@ -1,10 +1,12 @@
 ---
 aliases: 
 tags: 
-date: 
-created: 2025/01/08 3:15:43
-updated: 2025/01/08 3:31:24
+date.created: 2025/01/08 3:15:43
+date.updated: 2025/01/08 4:07:31
 ---
+
+
+
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
 
 基於要把 WebForm 改版成 row 可點選展開的樣式，加上時間問題，因此選擇現成解法。  
