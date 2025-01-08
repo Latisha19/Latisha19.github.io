@@ -1,7 +1,6 @@
 site_name: Latisha
 theme:
     name: material
-nav:
-    - Home: index.md
-    - Blog:
-          - blog/index.md
+plugins:
+  - search
+  - blog
