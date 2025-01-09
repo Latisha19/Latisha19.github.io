@@ -1,9 +1,6 @@
 ---
-aliases: 
-tags: 
-created: 2025/01/08 3:15:43
-date created: 2025/01/07 3:45:05
-date modified: 2025/01/08 3:22:26
+Date-Created: 2025-01-08 03:15:43
+Date-Modified: 2025-01-09 10:08:14
 ---
 ## `C#`
 
