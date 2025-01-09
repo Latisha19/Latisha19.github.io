@@ -1,6 +1,11 @@
 site_name: Latisha
 theme:
     name: material
+# nav:
+#     - Home: index.md
+#     - Getting started: /posts/
 plugins:
-  - search
-  - blog
+    - search
+    - blog
+    - literate-nav:
+      nav_file: SUMMARY.md
