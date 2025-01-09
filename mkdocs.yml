@@ -8,4 +8,4 @@ plugins:
     - search
     - blog
     - literate-nav:
-      nav_file: SUMMARY.md
+          nav_file: SUMMARY.md
