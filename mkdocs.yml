@@ -2,13 +2,13 @@ site_name: Latisha
 theme:
     name: material
     font:
-       text: Comic Sans Mono
+       text: LXGW WenKai Mono TC
     features:
         - navigation.tabs
         - navigation.tabs.sticky
         - navigation.path
         - navigation.sections
-	- navigation.top
+        - navigation.top
 # nav:
 #    - Home: index.md
  #   - Getting started: /blog/posts/*.md
