@@ -1,4 +1,4 @@
 - [Home](index.md)
-- Blogs
-    - blog/posts/*.md
+    - [Blogs](index.md)
+        - [xss](blog/posts/XSS 處理.md)
 - *.md
