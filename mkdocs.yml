@@ -11,10 +11,11 @@ theme:
         - navigation.top
 nav:
    - Home: index.md
-   - Getting started: 
-      - [Bootstrap table](/blog/posts/Bootstrap-table.md)
-      - [log](/blog/posts/log.md)
-      - [XSS 處理](/blog/posts/XSS 處理.md)
+   - blogs: 
+      - blog/posts/index.md
+      - [Bootstrap table](blog/posts/Bootstrap-table.md)
+      - [log](blog/posts/log.md)
+      - [XSS 處理](blog/posts/XSS 處理.md)
 plugins:
     - search
     - blog
