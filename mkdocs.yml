@@ -13,9 +13,9 @@ nav:
    - Home: index.md
    - blogs: 
       - blog/posts/index.md
-      - [Bootstrap table](blog/posts/Bootstrap-table.md)
-      - [log](blog/posts/log.md)
-      - [XSS 處理](blog/posts/XSS 處理.md)
+      - Bootstrap table: blog/posts/Bootstrap-table.md
+      - log: blog/posts/log.md
+      - XSS 處理: blog/posts/XSS 處理.md
 plugins:
     - search
     - blog
