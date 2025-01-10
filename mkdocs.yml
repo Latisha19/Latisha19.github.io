@@ -1,4 +1,12 @@
 site_name: Latisha
+
+# Repository
+repo_name: Latisha19/Latisha19.github.io
+repo_url: https://github.com/Latisha19/Latisha19.github.io
+
+# Copyright
+copyright: Copyright &copy; 2023 - 2025 Latisha^^
+
 theme:
     name: material
     font:
@@ -35,6 +43,10 @@ nav:
         - blog/index.md
 plugins:
     - search
-    - blog
+    - blog:
+        pagination: true
+        pagination_per_page: 5
+        pagination_if_single_page: true
+        pagination_keep_content: false
   #  - literate-nav:
      #   nav_file: SUMMARY.md
