@@ -9,11 +9,14 @@ theme:
         - navigation.path
         - navigation.sections
         - navigation.top
-# nav:
-#    - Home: index.md
- #   - Getting started: /blog/posts/*.md
+nav:
+   - Home: index.md
+   - Getting started: 
+      - [Bootstrap table](/blog/posts/Bootstrap-table.md)
+      - [log](/blog/posts/log.md)
+      - [XSS 處理](/blog/posts/XSS 處理.md)
 plugins:
     - search
     - blog
-    - literate-nav:
-        nav_file: SUMMARY.md
+  #  - literate-nav:
+     #   nav_file: SUMMARY.md
