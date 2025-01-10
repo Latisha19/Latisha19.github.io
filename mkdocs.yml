@@ -31,11 +31,11 @@ theme:
         - toc.follow
 nav:
    - Home: index.md
-   - blogs: 
-      - Hello: blog/posts/index.md
-      - Bootstrap table: blog/posts/Bootstrap-table.md
-      - log: blog/posts/log.md
-      - XSS 處理: blog/posts/XSS 處理.md
+   - Blogs: 
+        - blog/index.md
+        - Bootstrap table: blog/Bootstrap-table.md
+        - log: blog/log.md
+        - XSS 處理: blog/XSS 處理.md
 plugins:
     - search
     - blog
