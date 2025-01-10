@@ -33,9 +33,6 @@ nav:
    - Home: index.md
    - Blogs: 
         - blog/index.md
-        - Bootstrap table: blog/Bootstrap-table.md
-        - log: blog/log.md
-        - XSS 處理: blog/XSS 處理.md
 plugins:
     - search
     - blog
