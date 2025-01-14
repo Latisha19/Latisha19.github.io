@@ -39,8 +39,8 @@ theme:
         - toc.follow
 nav:
    - Home: index.md
-   - Blogs: 
-        - blog/index.md
+   - Blogs: blog/
+      #  - blog/index.md
 plugins:
     - search
     - blog:
