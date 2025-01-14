@@ -37,10 +37,10 @@ theme:
         - search.share
         - search.suggest
         - toc.follow
-nav:
-   - Home: index.md
-   - Blogs: 
-        - blog/index.md
+# nav:
+   # - Home: index.md
+   # - Blogs: 
+        # - blog/index.md
 plugins:
     - search
     - blog:
@@ -48,5 +48,5 @@ plugins:
         pagination_per_page: 5
         pagination_if_single_page: true
         pagination_keep_content: false
-  #  - literate-nav:
-     #   nav_file: SUMMARY.md
+    - literate-nav:
+        nav_file: SUMMARY.md

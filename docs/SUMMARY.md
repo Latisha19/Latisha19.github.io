@@ -1,4 +1,4 @@
 - [Home](index.md)
 - Blogs
    - [Index](blog/posts/index.md)
-   - *.md
+   - blog/posts/*.md
