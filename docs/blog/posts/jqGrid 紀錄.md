@@ -2,7 +2,7 @@
 categories:
   - jqGrid
 date: 2025-01-14 11:00:08
-updated: 2025-01-20 04:26:36
+updated: 2025-01-20 04:34:40
 ---
 *** 緩慢更新中
 
@@ -13,8 +13,10 @@ updated: 2025-01-20 04:26:36
 嚴格來說我用的是 [Guriddo jqGrid JS](https://www.guriddo.net/documentation/guriddo/javascript/#system-requirements)
 
 ## 前置
+
 至少要引用的：(路徑替換為自己的、`grid.locale-en.js` 可以換自己需要的)
-```html
+
+``` html
 <link rel="stylesheet" type="text/css" href="jquery-ui.css"  />
 <link rel="stylesheet" type="text/css" href="ui.jqgrid.css"  />
 
@@ -24,10 +26,11 @@ updated: 2025-01-20 04:26:36
 ```
 
 ## 使用
+
 我的簡易成果：(主要來自 ChatGPT，零散調整成我需要的長相)
 ![enter image description here](https://blogger.googleusercontent.com/img/a/AVvXsEjGvfk_Jp4hhz9DQLTMaoR_gP1mgLzG1dkFKpvj4c-OqU1p90otrPP5_t2xnms2sacOnfAkztOZ-N72YIAvXQqp1T2hmFgvQNI4-rjC1HcrOkuI23dG9_yXejyazKnEsMchP5YXnL68HcdrjHYwDVWgzm79B_xz9xIP2y9jza8ymQaz6nRh-11LxalfP-s=w640-h391)
 
-```html=
+``` html linenums="1"
 <div>
     <table id="grid"></table>
     <div id="pager"></div>

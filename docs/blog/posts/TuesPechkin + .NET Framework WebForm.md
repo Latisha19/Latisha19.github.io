@@ -7,7 +7,7 @@ categories:
   - .NET Framework
   - WebForm
 date: 2025-01-17 11:34:04
-updated: 2025-01-20 04:16:52
+updated: 2025-01-20 04:37:05
 ---
 !!! info
 	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。
@@ -27,7 +27,7 @@ updated: 2025-01-20 04:16:52
 
 最終：
 (前端 .aspx: 為求方便，將想輸出成 pdf 的區塊寫了 `d-none`。其他不需要輸出的就放著)
-```aspx
+``` aspx
 ...
 <table id="myTable" runat="server" border="1" class="d-none">
     <tr>
@@ -43,7 +43,7 @@ updated: 2025-01-20 04:16:52
 ```
 
 (後端 .aspx.cs: 抓取前端的 id 輸出)
-```csharp
+``` csharp
 ...
 
 HtmlTable tableControl = myTable;
