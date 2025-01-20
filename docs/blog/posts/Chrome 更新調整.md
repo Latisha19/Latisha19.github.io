@@ -1,6 +1,8 @@
 ---
+categories:
+  - chrome
 date: 2025-01-14 10:59:46
-updated: 2025-01-14 10:59:53
+updated: 2025-01-20144 181010:59:53
 ---
 都是去 [chrome://flags/](chrome://flags/) 裡面調整
 

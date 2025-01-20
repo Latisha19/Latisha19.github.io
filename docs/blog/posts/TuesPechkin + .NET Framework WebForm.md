@@ -1,10 +1,13 @@
 ---
-tags:
+categories:
   - Csharp
   - tool
   - pdf
+  - TuesPechkin
+  - .NET Framework
+  - WebForm
 date: 2025-01-17 11:34:04
-updated: 2025-01-20 04:07:03
+updated: 2025-01-20 04:16:52
 ---
 !!! info
 	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。

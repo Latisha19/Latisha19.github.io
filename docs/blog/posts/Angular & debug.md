@@ -1,6 +1,9 @@
 ---
+categories:
+  - Angular
+  - debug
 date: 2025-01-14 10:58:19
-updated: 2025-01-14 10:59:03
+updated: 2025-01-20 04:17:30
 ---
 身為一個最近越來越常在搞 debug 的人而言 (why 呢，我也不曉得...)，使用 angular 是一定要 debug 的！
 

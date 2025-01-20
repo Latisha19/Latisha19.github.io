@@ -1,8 +1,8 @@
 ---
-tags:
+categories:
   - Csharp
 date: 2025-01-14 10:48:51
-updated: 2025-01-20 04:00:44
+updated: 2025-01-20 04:22:12
 ---
 ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 

@@ -42,7 +42,6 @@ nav:
    - Home: index.md
    - Blogs: # blog/
         - blog/index.md
-        - blog/posts/
 plugins:
     - search
     - blog:
