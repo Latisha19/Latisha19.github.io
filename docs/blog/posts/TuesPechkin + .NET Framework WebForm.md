@@ -7,7 +7,7 @@ categories:
   - .NET Framework
   - WebForm
 date: 2025-01-17 11:34:04
-updated: 2025-01-20 04:37:05
+updated: 2025-01-20 05:01:45
 ---
 !!! info
 	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。
@@ -107,5 +107,5 @@ if (tableControl != null)
 
 這樣就完成下載匯出的 pdf 了，產出如下圖。
 
-![[TuesPechkin - export_pdf.png]]
+![](TuesPechkin%20-%20export_pdf.png)
 
