@@ -2,7 +2,7 @@
 categories:
   - jqGrid
 date: 2025-01-14 11:00:08
-updated: 2025-01-20 04:34:40
+updated: 2025-01-20 04:42:39
 ---
 *** 緩慢更新中
 
@@ -80,14 +80,14 @@ updated: 2025-01-20 04:34:40
 </script>
 ```
 
-其中可以設點屬性
-- `height`、`width` 設定整個 grid 的寬高
-- 第二個 `.jqGrid()` 的第三個屬性 {} 是決定 toolbar 要不要有新增刪除編輯的小圖示
-- 如果開編輯的話，`url` 要設值否則會一直報 "Not Set a Url" 的問題。要設你想把編輯結果塞給哪個檔案 (例如某 .php 檔之類的)。若是純本地不傳值給後端，值要設 'clientArray'。
-- `multiselect` : 各 row 前是否要有複選框
-- 若要對 colModel 中的誰做客製化 grid 外表時，使用屬性 `formatter`。
-	- 例如：想讓值如果是空白，預設顯示 x :
-		```js=
+其中可以設點屬性  
+- `height`、`width` 設定整個 grid 的寬高  
+- 第二個 `.jqGrid()` 的第三個屬性 {} 是決定 toolbar 要不要有新增刪除編輯的小圖示  
+- 如果開編輯的話，`url` 要設值否則會一直報 "Not Set a Url" 的問題。要設你想把編輯結果塞給哪個檔案 (例如某 .php 檔之類的)。若是純本地不傳值給後端，值要設 'clientArray'。  
+- `multiselect` : 各 row 前是否要有複選框  
+- 若要對 colModel 中的誰做客製化 grid 外表時，使用屬性 `formatter`。  
+	- 例如：想讓值如果是空白，預設顯示 x :  
+		``` js=
 		formatter: function (cellValue, options, rowObject) {
 		    return cellValue === "" ? "x" : cellValue;
 		}
@@ -95,6 +95,7 @@ updated: 2025-01-20 04:34:40
 
 ### 表單編輯
 #### 編輯：使用 checkbox 多值
+
 來自 [這個(grid 內顯示用)](https://stackoverflow.com/a/21046993) 跟 [這個 (JS 內撰寫)](https://stackoverflow.com/a/27321972)
 
 結果：

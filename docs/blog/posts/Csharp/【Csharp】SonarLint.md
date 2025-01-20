@@ -22,7 +22,7 @@ ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 
 ## S1104
 
-![[Pasted image 20250114152239.png]]
+![[SonarLint - S1104.png]]
 [C# static code analysis | cwe](https://rules.sonarsource.com/csharp/tag/cwe/RSPEC-1104/) / Fields should not have public accessibility
 
 
@@ -35,7 +35,7 @@ ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 
 ## S3358
 
-![[Pasted image 20250114153348.png]]
+![[SonarLint - S3358.png]]
 
 ## 其他
 

@@ -107,5 +107,5 @@ if (tableControl != null)
 
 這樣就完成下載匯出的 pdf 了，產出如下圖。
 
-![[Pasted image 20250117115640.png]]
+![[TuesPechkin - export_pdf.png]]
 
