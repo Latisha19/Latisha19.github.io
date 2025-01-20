@@ -1,5 +1,8 @@
 site_name: Latisha
-
+site_description: >-
+  主要 for 自我回顧好抄(咦) 
+  可能有的：coding、翻譯、my 娛樂用、雜七雜八不知道
+  
 # Repository
 repo_name: Latisha19/Latisha19.github.io
 repo_url: https://github.com/Latisha19/Latisha19.github.io
@@ -22,8 +25,6 @@ theme:
         # - navigation.indexes 
         # - toc.follow
         - announce.dismiss
-        - content.action.edit
-        - content.action.view
         - content.code.annotate
         - content.code.copy
         - content.tooltips
@@ -39,8 +40,9 @@ theme:
         - toc.follow
 nav:
    - Home: index.md
-   - Blogs: blog/
-      #  - blog/index.md
+   - Blogs: # blog/
+        - blog/index.md
+        - blog/posts/
 plugins:
     - search
     - blog:
@@ -50,3 +52,6 @@ plugins:
         pagination_keep_content: false
     # - literate-nav:
         # nav_file: SUMMARY.md
+        
+markdown_extensions:
+  - admonition
