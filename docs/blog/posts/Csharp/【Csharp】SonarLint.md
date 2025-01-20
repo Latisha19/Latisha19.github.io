@@ -2,8 +2,7 @@
 tags:
   - Csharp
 date: 2025-01-14 10:48:51
-  - 2025-01-14 10:48:51
-updated: 2025-01-14 03:42:24
+updated: 2025-01-20 04:00:44
 ---
 ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 
