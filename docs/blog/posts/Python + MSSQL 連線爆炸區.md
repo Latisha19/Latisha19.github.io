@@ -3,13 +3,23 @@ categories:
   - Python
   - MSSQL 
 date: 2025-01-14 11:00:41
-updated: 2025-01-20 04:17:03
+updated: 2025-01-20 04:36:51
 ---
 從學寫程式開始最崩潰的前三名就是用程式連線資料庫，以及編碼...
 
 今天拿 Python 連 MSSQL 第一次不意外地失敗了...
 甚至不設帳密的連線也可以報個
-"Login failed for user '\xe3\x83\xbeUWU\xe3\x82\x9e\\xxx'.DB-Lib error message 20018, severity 14:\nGeneral SQL Server error: Check messages from the SQL Server\nDB-Lib error message 20002, severity 9:\nAdaptive Server connection failed (127.0.0.1)\nDB-Lib error message 20002, severity 9:\nAdaptive Server connection failed (127.0.0.1)\n")
+
+```
+"Login failed for user '\xe3\x83\xbeUWU\xe3\x82\x9e\\xxx'.DB-Lib error message 20018, severity 14:
+General SQL Server error: Check messages from the SQL Server
+DB-Lib error message 20002, severity 9:
+Adaptive Server connection failed (127.0.0.1)
+DB-Lib error message 20002, severity 9:
+Adaptive Server connection failed (127.0.0.1)
+")
+```
+
 (其中 xxx 是我的本機使用者名稱)
 
 後來才發現到：
@@ -17,7 +27,11 @@ updated: 2025-01-20 04:17:03
 (參考自 [利用 Python 直接匯出資料庫 (MSSQL) 的資料 (Pandas ReadSQL) | YC's Weekly Journal](https://ycjhuo.gitlab.io/blogs/Python-Pandas-Download-Data-From-MSSQL.html#%E9%80%A3%E6%8E%A5-mssql-%E8%B3%87%E6%96%99%E5%BA%AB) )
 
 其他的還有
+
+```
 ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "AAA" requested by the login. The login failed. (4060) (SQLDriverConnect); [42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Cannot open database "AAA" requested by the login. The login failed. (4060)')
+```
+
 (連線的資料庫名稱是 AAA)
 
 ....之類的

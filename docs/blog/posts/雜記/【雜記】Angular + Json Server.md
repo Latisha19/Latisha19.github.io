@@ -2,7 +2,7 @@
 categories:
   - 雜記
 date: 2025-01-14 10:58:19
-updated: 2025-01-20 04:23:08
+updated: 2025-01-20 04:35:03
 ---
 文前言：本篇因為在昏沉狀況下處理所以也沒整理多好，故給名【雜記】
 
@@ -12,6 +12,7 @@ updated: 2025-01-20 04:23:08
 先說結論：最後放棄了，網址改用 http 處理。感覺是就差一點點...
 
 ## 1. OpenSSL
+
 總之如果要用這個的話，可以先安裝 `choco`，再裝 `openssl`。
 處理好之後會得到兩個檔案。(好像就是所謂的 SSL 憑證？
 它
@@ -22,6 +23,7 @@ updated: 2025-01-20 04:23:08
 [How to run json-server under HTTPS? · Issue #389 · typicode/json-server](https://github.com/typicode/json-server/issues/389)
 
 ## 2. Hotel
+
 先放上 [官網](https://github.com/typicode/hotel)
 特性之一是可以改用 https 接。
 期間嘗試了 1+2： 
