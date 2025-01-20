@@ -2,7 +2,7 @@
 categories:
   - jqGrid
 date: 2025-01-14 11:00:08
-updated: 2025-01-20 04:18:13
+updated: 2025-01-20 04:26:36
 ---
 *** 緩慢更新中
 
@@ -76,6 +76,7 @@ updated: 2025-01-20 04:18:13
     $("#grid").trigger("refresh_grid", [{ page: 1 }]);
 </script>
 ```
+
 其中可以設點屬性
 - `height`、`width` 設定整個 grid 的寬高
 - 第二個 `.jqGrid()` 的第三個屬性 {} 是決定 toolbar 要不要有新增刪除編輯的小圖示
@@ -99,17 +100,17 @@ updated: 2025-01-20 04:18:13
 若要進階一點，設定表單編輯內欄位名稱自製，可以使用 `beforeShowForm` 的參數來調整。
 ![enter image description here](https://blogger.googleusercontent.com/img/a/AVvXsEj2o-H5AU4Bq0la100tjwYXPgP4cGWOWiJ6qAprFp-XEYxbzyJ_D3koXRbj1ajEPJ9hblu_0rrmpXkfT_u5qBShpJi5DwGM8Kbmgks5FRvoQa_k1-7VXeOLbGg9cpkaft2saDLBc1slxun4e_9jjeab2pnk407zXbFKyl3Ow1KCleUzUFpZFZjP8m1-Bak=w500-h398)
 
-[^1]: [JqGrid—功能強大的jQuery Grid Control](https://www.cc.ntu.edu.tw/chinese/epaper/0021/20120620_2109.html)
-[JqGrid How to change width of edit form? - Stack Overflow](https://stackoverflow.com/questions/3901306/jqgrid-how-to-change-width-of-edit-form)
-[Does jQuery jqGrid edit form support fields that are multiselect? - Stack Overflow](https://stackoverflow.com/questions/4984886/does-jquery-jqgrid-edit-form-support-fields-that-are-multiselect)
-[wiki:common_rules - jqGrid Wiki](http://www.trirand.com/jqgridwiki/doku.php?id=wiki:common_rules)
-ChatGPT
-[softwarenotes/javascript/jqgrid - 設計筆記.md at master · mrtony/softwarenotes](https://github.com/mrtony/softwarenotes/blob/master/javascript/jqgrid%20-%20%E8%A8%AD%E8%A8%88%E7%AD%86%E8%A8%98.md)
-[jqGrid 實用技巧 (十一) inline edit 及 confirm dialog before save | Mister Ngan](https://www.misterngan.com/1130/jqgrid-%E5%AF%A6%E7%94%A8%E6%8A%80%E5%B7%A7-%E5%8D%81%E4%B8%80-inline-edit-%E5%8F%8A-confirm-dialog-before-save/)
-[jqGrid Demos](http://www.trirand.com/blog/jqgrid/jqgrid.html)
-[JqGrid 教學(基礎配置) @ 討厭鬼教學 :: 痞客邦 ::](https://nerdyworld.pixnet.net/blog/post/24966733)
-[提姆備忘錄 Javascript  jQuery Grid Control - jqGrid 簡介](https://d8890007.blogspot.com/2012/11/javascript-jquery-grid-control-jqgrid.html)
-[第4個jqGrid範例: 資料列處理 – 簡睿隨筆](https://jdev.tw/blog/1640/jqgrid-data-manipulation)
-[jQuery學習筆記&#8211;jqGrid的使用方法(編輯,刪除,更新,新增)](https://topic.alibabacloud.com/tc/a/jquery-learning-notes-how-to-use-jqgrid-edit-delete-update-and-add_8_8_31964283.html)
+[^1]: [JqGrid—功能強大的jQuery Grid Control](https://www.cc.ntu.edu.tw/chinese/epaper/0021/20120620_2109.html)  
+[JqGrid How to change width of edit form? - Stack Overflow](https://stackoverflow.com/questions/3901306/jqgrid-how-to-change-width-of-edit-form)  
+[Does jQuery jqGrid edit form support fields that are multiselect? - Stack Overflow](https://stackoverflow.com/questions/4984886/does-jquery-jqgrid-edit-form-support-fields-that-are-multiselect)  
+[wiki:common_rules - jqGrid Wiki](http://www.trirand.com/jqgridwiki/doku.php?id=wiki:common_rules)  
+ChatGPT  
+[softwarenotes/javascript/jqgrid - 設計筆記.md at master · mrtony/softwarenotes](https://github.com/mrtony/softwarenotes/blob/master/javascript/jqgrid%20-%20%E8%A8%AD%E8%A8%88%E7%AD%86%E8%A8%98.md)  
+[jqGrid 實用技巧 (十一) inline edit 及 confirm dialog before save | Mister Ngan](https://www.misterngan.com/1130/jqgrid-%E5%AF%A6%E7%94%A8%E6%8A%80%E5%B7%A7-%E5%8D%81%E4%B8%80-inline-edit-%E5%8F%8A-confirm-dialog-before-save/)  
+[jqGrid Demos](http://www.trirand.com/blog/jqgrid/jqgrid.html)  
+[JqGrid 教學(基礎配置) @ 討厭鬼教學 :: 痞客邦 ::](https://nerdyworld.pixnet.net/blog/post/24966733)  
+[提姆備忘錄 Javascript  jQuery Grid Control - jqGrid 簡介](https://d8890007.blogspot.com/2012/11/javascript-jquery-grid-control-jqgrid.html)  
+[第4個jqGrid範例: 資料列處理 – 簡睿隨筆](https://jdev.tw/blog/1640/jqgrid-data-manipulation)  
+[jQuery學習筆記&#8211;jqGrid的使用方法(編輯,刪除,更新,新增)](https://topic.alibabacloud.com/tc/a/jquery-learning-notes-how-to-use-jqgrid-edit-delete-update-and-add_8_8_31964283.html)  
 
 > Written with [StackEdit](https://stackedit.io/).
