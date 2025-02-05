@@ -1,10 +1,10 @@
 ---
 tags:
-  - Cs
+  - Codinggg/Lan/Cs
 categories:
-  - Lan/C#
+  - Codinggg
 date: 2025-01-24 10:34:39
-updated: 2025-02-05 04:00:43
+updated: 2025-02-05 04:23:38
 ---
 原先是嘗試使用其他的開源解壓縮  
 測試壓縮檔內有一千多個檔案，解了五分鐘以上，決定換掉  

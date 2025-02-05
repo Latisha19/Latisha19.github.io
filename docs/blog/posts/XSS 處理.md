@@ -1,10 +1,10 @@
 ---
 tags:
-  - IS
-categories:
   - IS/XSS
+categories:
+  - IS
 date: 2025-01-08 03:15:43
-updated: 2025-02-05 03:59:25
+updated: 2025-02-05 04:25:10
 ---
 ## `C#`
 

@@ -1,10 +1,10 @@
 ---
 tags:
-  - Angular
+  - Codinggg/Lan/Angular
 categories:
-  - 雜記/lan
+  - 雜記
 date: 2025-01-14 10:58:19
-updated: 2025-02-04 11:56:11
+updated: 2025-02-05 04:21:42
 ---
 文前言：本篇因為在昏沉狀況下處理所以也沒整理多好，故給名【雜記】
 

@@ -1,10 +1,11 @@
 ---
 tags:
-  - git
+  - Codinggg/Tools/git
 categories:
-  - Tool/Git
+  - Codinggg
+  - Tools
 date: 2025-01-14 10:57:52
-updated: 2025-02-05 03:57:49
+updated: 2025-02-05 04:24:04
 ---
 最近 Sourcetree 更新了 (忘記甚麼時候更得，總之我現在是 win 3.4.17)
 最明顯的功能大概就是 Stash 了吧...

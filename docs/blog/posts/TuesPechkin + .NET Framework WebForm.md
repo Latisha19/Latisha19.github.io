@@ -1,14 +1,12 @@
 ---
 tags:
-  - Cs
-  - tool
-  - frame
+  - Codinggg/Tools
+  - Codinggg/WebForm
 categories:
-  - Codinggg/Lan/Cs
-  - Codinggg/Tool/TuesPechkin
-  - Codinggg/Frame/NET
+  - Codinggg
+  - Tools
 date: 2025-01-17 11:34:04
-updated: 2025-02-04 11:59:52
+updated: 2025-02-05 04:24:58
 ---
 !!! info
 	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。

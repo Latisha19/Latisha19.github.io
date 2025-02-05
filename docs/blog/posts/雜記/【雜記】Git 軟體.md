@@ -1,9 +1,11 @@
 ---
-tags: 
+tags:
+  - Codinggg/Tools/git
 categories:
   - 雜記
+  - Tools
 date: 2025-01-14 10:58:19
-updated: 2025-02-05 03:58:08
+updated: 2025-02-05 04:24:13
 ---
 一開始很常使用 Sourcetree，後來需求 SmartGit。
 其實這也沒甚麼，用久了就會發現它們彼此都有各自的好壞，一起開著更方便我自己。

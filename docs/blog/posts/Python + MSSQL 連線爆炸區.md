@@ -1,10 +1,11 @@
 ---
 tags:
+  - Codinggg/Lan/Python
+  - Codinggg/DB/MS
 categories:
-  - Python
-  - MSSQL 
+  - Codinggg
 date: 2025-01-14 11:00:41
-updated: 2025-02-05 03:59:05
+updated: 2025-02-05 04:28:07
 ---
 從學寫程式開始最崩潰的前三名就是用程式連線資料庫，以及編碼...
 

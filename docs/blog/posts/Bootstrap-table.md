@@ -1,9 +1,11 @@
 ---
-tags: 
+tags:
+  - Codinggg/Tools/Bootstrap
 categories:
-  - Bootstrap
+  - Codinggg
+  - Tools
 date: 2025-01-08 03:15:43
-updated: 2025-02-04 11:55:03
+updated: 2025-02-05 04:26:28
 ---
 
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
