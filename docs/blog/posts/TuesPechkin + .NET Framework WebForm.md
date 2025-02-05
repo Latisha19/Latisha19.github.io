@@ -1,13 +1,14 @@
 ---
-categories:
-  - Csharp
+tags:
+  - Cs
   - tool
-  - pdf
-  - TuesPechkin
-  - .NET Framework
-  - WebForm
+  - frame
+categories:
+  - Codinggg/Lan/Cs
+  - Codinggg/Tool/TuesPechkin
+  - Codinggg/Frame/NET
 date: 2025-01-17 11:34:04
-updated: 2025-01-20 05:01:45
+updated: 2025-02-04 11:59:52
 ---
 !!! info
 	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。

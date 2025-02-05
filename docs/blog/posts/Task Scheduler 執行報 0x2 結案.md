@@ -1,8 +1,9 @@
 ---
+tags:
 categories:
   - Task Scheduler
 date: 2025-01-14 11:01:21
-updated: 2025-01-20 04:16:39
+updated: 2025-02-05 03:59:13
 ---
 
 昨天嘗試由 [【Windows排程】使用windows排程器讓python自己動起來吧!只要簡單四步驟 @ 恩哥Python量化教室-零基礎也能學會Python :: 痞客邦 ::](https://pixnashpython.pixnet.net/blog/post/41511724-%E3%80%90win10%E6%8E%92%E7%A8%8B%E3%80%91%E4%BD%BF%E7%94%A8windows%E6%8E%92%E7%A8%8B) 教學做點排程，哪知最後居然失敗了...
