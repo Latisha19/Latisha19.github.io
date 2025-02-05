@@ -1,8 +1,9 @@
 ---
+tags: 
 categories:
-  - chrome
+  - 雜記/瀏覽器
 date: 2025-01-14 10:59:46
-updated: 2025-01-20144 181010:59:53
+updated: 2025-02-04 11:56:02
 ---
 都是去 [chrome://flags/](chrome://flags/) 裡面調整
 
