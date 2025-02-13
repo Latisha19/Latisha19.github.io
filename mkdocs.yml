@@ -42,9 +42,9 @@ nav:
    - Home: index.md
    - Blogs: # blog/
         - blog/index.md
+   - Blogs-Tags: blog/tags.md
    - Game: # blog/
-        - blog/posts/!GAME/index.md
-   - Tags: blog/tags.md
+        - GAME/index.md
 plugins:
     - search
     - blog:
