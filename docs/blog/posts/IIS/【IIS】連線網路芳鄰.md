@@ -5,7 +5,7 @@ categories:
 tags:
   - Codinggg/IIS
 date: 2025-02-06 09:39:29
-updated: 2025-02-13 03:19:19
+updated: 2025-02-13 03:26:17
 ---
 參考是找了很多，但到最後依舊無法成功利用虛擬目錄接網芳。
 
@@ -32,11 +32,11 @@ updated: 2025-02-13 03:19:19
 5. 瀏覽器開啟網站根目錄，接上 "/(別名)" 嘗試連接。
 
 以及期間參考的：  
-- [How to create a virtual directory on an existing Web site to a folder that resides on a remote computer - Windows Server | Microsoft Learn](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/create-virtual-directory-folder-remote-computer)  
-- [IIS 如何建立網路芳鄰之虛擬目錄 - 噗落格的資訊空間-網路技術分享-Asp.Net.VB.C#.程式開發.微網誌.網路行銷.facebook 行銷.噗浪行銷.社群行銷](https://king971119.blogspot.com/2010/07/iis.html)  
-- [[ASP.NET] IIS、Web Page 網頁 存取連線網路磁碟機－伊のspace～芳香精油＊美容保養＊程式設計｜痞客邦](https://takamai.pixnet.net/blog/post/42794896)  
-- [Max Coding BLOG. (^_^)y: IIS 7掛載網芳的虛擬目錄](https://maxtellyou.blogspot.com/2010/02/iis-7.html)  
-- [ASP.NET 如何將檔案寫入到網路芳鄰的分享目錄 | The Will Will Web](https://blog.miniasp.com/post/2007/11/10/How-to-write-file-to-net-share-folder-using-ASPNET)
+* [How to create a virtual directory on an existing Web site to a folder that resides on a remote computer - Windows Server | Microsoft Learn](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/create-virtual-directory-folder-remote-computer)  
+* [IIS 如何建立網路芳鄰之虛擬目錄 - 噗落格的資訊空間-網路技術分享-Asp.Net.VB.C#.程式開發.微網誌.網路行銷.facebook 行銷.噗浪行銷.社群行銷](https://king971119.blogspot.com/2010/07/iis.html)  
+* [[ASP.NET] IIS、Web Page 網頁 存取連線網路磁碟機－伊のspace～芳香精油＊美容保養＊程式設計｜痞客邦](https://takamai.pixnet.net/blog/post/42794896)  
+* [Max Coding BLOG. (^_^)y: IIS 7掛載網芳的虛擬目錄](https://maxtellyou.blogspot.com/2010/02/iis-7.html)  
+* [ASP.NET 如何將檔案寫入到網路芳鄰的分享目錄 | The Will Will Web](https://blog.miniasp.com/post/2007/11/10/How-to-write-file-to-net-share-folder-using-ASPNET)
 
 我是在 2.-d. 測試連線全掛 (明明帳密是對的？)  
 而且 5. 發現根目錄爆
