@@ -5,7 +5,7 @@ categories:
 tags:
   - Codinggg/IIS
 date: 2025-02-06 09:39:29
-updated: 2025-02-13 03:07:07
+updated: 2025-02-13 03:16:25
 ---
 參考是找了很多，但到最後依舊無法成功利用虛擬目錄接網芳。
 
@@ -31,14 +31,14 @@ updated: 2025-02-13 03:07:07
 	 ![](1738808697070.jpg)
 5. 瀏覽器開啟網站根目錄，接上 "/(別名)" 嘗試連接。
 
-以及期間參考的：
+以及期間參考的：  
 - [How to create a virtual directory on an existing Web site to a folder that resides on a remote computer - Windows Server | Microsoft Learn](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/create-virtual-directory-folder-remote-computer)
 - [IIS 如何建立網路芳鄰之虛擬目錄 - 噗落格的資訊空間-網路技術分享-Asp.Net.VB.C#.程式開發.微網誌.網路行銷.facebook 行銷.噗浪行銷.社群行銷](https://king971119.blogspot.com/2010/07/iis.html)
 - [[ASP.NET] IIS、Web Page 網頁 存取連線網路磁碟機－伊のspace～芳香精油＊美容保養＊程式設計｜痞客邦](https://takamai.pixnet.net/blog/post/42794896)
 - [Max Coding BLOG. (^_^)y: IIS 7掛載網芳的虛擬目錄](https://maxtellyou.blogspot.com/2010/02/iis-7.html)
 - [ASP.NET 如何將檔案寫入到網路芳鄰的分享目錄 | The Will Will Web](https://blog.miniasp.com/post/2007/11/10/How-to-write-file-to-net-share-folder-using-ASPNET)
 
-我是在 2.-4. 測試連線全掛 (明明帳密是對的？)  
+我是在 2.-d. 測試連線全掛 (明明帳密是對的？)  
 而且 5. 發現根目錄爆
 ```
 Service Unavailable 
@@ -181,10 +181,10 @@ public void DisconnNetworkDrive()
 這樣再試  
 1. 虛擬目錄就可以過了，虛擬目錄連的帳號不用加上 domain (以個人例子而言)  
 2. 應用程式集區可以切回原先預設，不用動到 (個人不太了解它，所以能不動就不動最好)  
-3. 2.-4. 測試連線全過，好耶
+3. 2.-d. 測試連線全過，好耶
 
 但奇怪的事還是很多... (待續)  
 [存取被拒絕，因此無法開始監視 \\x.x.x.x\XXX 的變更 (IIS7) | The Will Will Web](https://blog.miniasp.com/post/2009/05/20/Failed-to-start-monitoring-directory-changes-when-using-UNC-virtual-directory-IIS7)
 
 目前暫時改用 FTP 處理。  
-[【FTP】](【FTP】.md)
+[【FTP】](../【FTP】.md)
