@@ -42,6 +42,8 @@ nav:
    - Home: index.md
    - Blogs: # blog/
         - blog/index.md
+   - Game: # blog/
+        - blog/posts/!GAME/index.md
    - Tags: blog/tags.md
 plugins:
     - search
