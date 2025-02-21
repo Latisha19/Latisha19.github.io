@@ -6,12 +6,12 @@ categories:
   - Codinggg
   - Tools
 date: 2025-01-14 11:00:08
-updated: 2025-02-05 04:26:56
+updated: 2025-02-21 17:09:12
 ---
 *** 緩慢更新中
 
-沒想到居然會需要看起來算 n 年前的 jqGrid...
-(看起來不支援已經有幾年了
+沒想到居然會需要看起來算 n 年前的 jqGrid...  
+(看起來不支援已經有幾年了  
 總之先列一下我落落長的參考資料在註腳[^1] 。(太多了已經不確定有沒有漏掉的了QQ  新手努力參考)
 
 嚴格來說我用的是 [Guriddo jqGrid JS](https://www.guriddo.net/documentation/guriddo/javascript/#system-requirements)
@@ -31,7 +31,7 @@ updated: 2025-02-05 04:26:56
 
 ## 使用
 
-我的簡易成果：(主要來自 ChatGPT，零散調整成我需要的長相)
+我的簡易成果：(主要來自 ChatGPT，零散調整成我需要的長相)  
 ![enter image description here](https://blogger.googleusercontent.com/img/a/AVvXsEjGvfk_Jp4hhz9DQLTMaoR_gP1mgLzG1dkFKpvj4c-OqU1p90otrPP5_t2xnms2sacOnfAkztOZ-N72YIAvXQqp1T2hmFgvQNI4-rjC1HcrOkuI23dG9_yXejyazKnEsMchP5YXnL68HcdrjHYwDVWgzm79B_xz9xIP2y9jza8ymQaz6nRh-11LxalfP-s=w640-h391)
 
 ``` html linenums="1"
@@ -102,10 +102,10 @@ updated: 2025-02-05 04:26:56
 
 來自 [這個(grid 內顯示用)](https://stackoverflow.com/a/21046993) 跟 [這個 (JS 內撰寫)](https://stackoverflow.com/a/27321972)
 
-結果：
+結果：  
 ![enter image description here](https://blogger.googleusercontent.com/img/a/AVvXsEh-T5aNPgQTRilKdyvUIXCRV6ORtnZonx5U02Bl73dl19ndMTrQv5_XXAP9HQf-pteFljrZFjBjaSD8b6RLFTunVsK_3_Gyeq8TAZZcbIByl9lCktWcz6x_uNKQ5MQPio8aOH29odah83US6SmgfK1284MjYiJiaNQ4Yk3T_cArKAyMX0RvCoo6BsGE4ow=w649-h324)
 
-若要進階一點，設定表單編輯內欄位名稱自製，可以使用 `beforeShowForm` 的參數來調整。
+若要進階一點，設定表單編輯內欄位名稱自製，可以使用 `beforeShowForm` 的參數來調整。  
 ![enter image description here](https://blogger.googleusercontent.com/img/a/AVvXsEj2o-H5AU4Bq0la100tjwYXPgP4cGWOWiJ6qAprFp-XEYxbzyJ_D3koXRbj1ajEPJ9hblu_0rrmpXkfT_u5qBShpJi5DwGM8Kbmgks5FRvoQa_k1-7VXeOLbGg9cpkaft2saDLBc1slxun4e_9jjeab2pnk407zXbFKyl3Ow1KCleUzUFpZFZjP8m1-Bak=w500-h398)
 
 [^1]: [JqGrid—功能強大的jQuery Grid Control](https://www.cc.ntu.edu.tw/chinese/epaper/0021/20120620_2109.html)  

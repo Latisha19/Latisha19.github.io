@@ -5,10 +5,10 @@ categories:
   - Codinggg
   - Tools
 date: 2025-01-14 10:57:52
-updated: 2025-02-05 04:24:04
+updated: 2025-02-21 17:07:54
 ---
-最近 Sourcetree 更新了 (忘記甚麼時候更得，總之我現在是 win 3.4.17)
-最明顯的功能大概就是 Stash 了吧...
+最近 Sourcetree 更新了 (忘記甚麼時候更得，總之我現在是 win 3.4.17)  
+最明顯的功能大概就是 Stash 了吧...  
 原本只有 **[Keep staged changed]** 選項，更新後多出 **[Untracked files]** 與 **[All]** 兩個選項。
 
 目前實驗如下：(假設已有 Stage 檔、Unstage 檔、Untracked 檔

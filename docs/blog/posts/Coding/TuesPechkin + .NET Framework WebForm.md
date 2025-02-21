@@ -6,10 +6,10 @@ categories:
   - Codinggg
   - Tools
 date: 2025-01-17 11:34:04
-updated: 2025-02-05 04:24:58
+updated: 2025-02-21 17:09:42
 ---
-!!! info
-	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。
+!!! info  
+	文前言：由於網路上找不到 webform 版本將學，決定自我摸索後寫成文章。  
 	反正實務上必須做出來，不如加寫成文章整理給未來的自己...
 
 嘗試使用套件 TuesPechkin 來將 .aspx 內特定 html 產成 pdf 並下載。  
@@ -21,10 +21,10 @@ updated: 2025-02-05 04:24:58
 再參照  
 - [tuespetre/TuesPechkin: A .NET wrapper for the wkhtmltopdf library with an object-oriented API.](https://github.com/tuespetre/TuesPechkin?tab=readme-ov-file#5-putting-it-all-together)
 - [c# - Hanging TuesPechkin after initial conversion - Stack Overflow](https://stackoverflow.com/questions/28037517/hanging-tuespechkin-after-initial-conversion)  
-- [使用TuesPechkin將html轉成PDF檔---2(C#) | Leon的程式心得 - 點部落](https://dotblogs.com.tw/Leon-Yang/2021/01/22/135047)
+- [使用TuesPechkin將html轉成PDF檔---2(C#) | Leon的程式心得 - 點部落](https://dotblogs.com.tw/Leon-Yang/2021/01/22/135047)  
 兩篇來配置初始化 (自己客製化為需求)
 
-最終：
+最終：  
 (前端 .aspx: 為求方便，將想輸出成 pdf 的區塊寫了 `d-none`。其他不需要輸出的就放著)
 ``` aspx
 ...
@@ -101,7 +101,7 @@ if (tableControl != null)
 ...
 ```
 
-後端內類別名稱的部分參照：
+後端內類別名稱的部分參照：  
 [Type 'Win32EmbeddedDeployment' is not defined · Issue #177 · tuespetre/TuesPechkin](https://github.com/tuespetre/TuesPechkin/issues/177)
 
 這樣就完成下載匯出的 pdf 了，產出如下圖。

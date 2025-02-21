@@ -5,7 +5,7 @@ tags:
   - Codinggg/Lan/Cs
   - Codinggg/LINQ
 date: 2025-02-13 03:02:02
-updated: 2025-02-13 03:14:55
+updated: 2025-02-21 17:07:58
 ---
 在 LINQ 寫 `.Where` 做 `.Contains`  
 依照官方說法  

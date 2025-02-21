@@ -5,7 +5,7 @@ categories:
   - Codinggg
   - Tools
 date: 2025-01-08 03:15:43
-updated: 2025-02-05 04:26:28
+updated: 2025-02-21 17:09:06
 ---
 
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
@@ -13,7 +13,7 @@ updated: 2025-02-05 04:26:28
 基於要把 WebForm 改版成 row 可點選展開的樣式，加上時間問題，因此選擇現成解法。  
 當然因為這個解法目前個人寫起來容易有 XSS 問題，所以未來還要再改版一次...
 
-目前最新版是 1.24.0   
+目前最新版是 1.24.0  
 之前的意外放了 CSS v1.23.5 + JS v1.15.5，後來察覺不對就調成一致用最新版了。
 
 目前觀察到的版本升級差異：  

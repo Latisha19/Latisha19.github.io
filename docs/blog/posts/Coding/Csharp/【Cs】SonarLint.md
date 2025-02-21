@@ -4,7 +4,7 @@ tags:
 categories:
   - Codinggg
 date: 2025-01-14 10:48:51
-updated: 2025-02-05 04:23:48
+updated: 2025-02-21 17:08:03
 ---
 ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 
@@ -24,7 +24,7 @@ ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 
 ## S1104
 
-![](SonarLint%20-%20S1104.png)
+![](../../../assets/images/SonarLint%20-%20S1104.png)  
 [C# static code analysis | cwe](https://rules.sonarsource.com/csharp/tag/cwe/RSPEC-1104/) / Fields should not have public accessibility
 
 
