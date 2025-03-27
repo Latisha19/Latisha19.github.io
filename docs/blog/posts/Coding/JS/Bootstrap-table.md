@@ -21,7 +21,7 @@ updated: 2025-03-27 11:40:38
 2. 展開收合 row 的 icon 從 fontawesome 改成使用 bootstrap-icon，這問題耗了我一些時間，直到猜出問題所在...
 
 基本製作參考了 [Bootstrap Table 響應式表格. 前言 | by 鯫生's Coding World | Medium](https://timchen0607.medium.com/bootstrap-table-%E9%9F%BF%E6%87%89%E5%BC%8F%E8%A1%A8%E6%A0%BC-9f6bb11fc5bc)
-
+<!-- more -->
 
 ## 中間來談一下 bootstrap-icon 吧。
 

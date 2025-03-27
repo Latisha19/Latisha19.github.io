@@ -4,7 +4,7 @@ tags:
 categories:
   - Codinggg
 date: 2025-01-14 10:48:51
-updated: 2025-02-21 17:34:35
+updated: 2025-03-27 15:31:06
 ---
 ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 
@@ -22,6 +22,7 @@ ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 詳細安裝教學請看上方網站。  
 本篇只會出現各警告如何處理的我流寫法。
 
+<!-- more -->
 ## S1104
 
 ![](../../../../assets/images/SonarLint_S1104.png)  

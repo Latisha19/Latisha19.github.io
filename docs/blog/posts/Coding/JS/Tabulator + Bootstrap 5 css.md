@@ -17,6 +17,8 @@ updated: 2025-03-27 12:03:00
 
 系統：Framework WebForm
 
+<!-- more -->
+
 ## 文前言
 
 這篇是基於前篇 [Bootstrap-table](Bootstrap-table.md) 欄位行內編輯失敗的產物。

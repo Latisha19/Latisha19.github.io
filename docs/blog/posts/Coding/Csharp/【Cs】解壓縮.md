@@ -12,6 +12,8 @@ updated: 2025-02-21 17:08:10
 找了一些方法，最終嘗試是 SevenZipExtractor。  
 官網：[adoconnection/SevenZipExtractor: C# wrapper for 7z.dll](https://github.com/adoconnection/SevenZipExtractor)
 
+<!-- more -->
+
 SevenZipExtractor 據官方描述是 7-Zip dll 的 c# 版包裝器  
 同樣的測試壓縮檔，解壓縮約 40 秒，效果相當不錯。  
 

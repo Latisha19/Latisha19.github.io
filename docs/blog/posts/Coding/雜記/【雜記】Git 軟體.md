@@ -12,6 +12,8 @@ updated: 2025-02-21 17:08:25
 然而後來發生了一個問題：Bitbucket 有一個預設用 Sourcetree 開啟的連結 (網址大概是 `sourcetree://xxx` 這種)  
 結果問題產生了：不管如何都會變成預設 SmartGit 開啟。
 
+<!-- more -->
+
 原本問題還不大，檢查一下發現預設應用程式開啟 `sourcetree://xxx` 是 SmartGit，改回去就好了。  
 其實不然，你會發現預設開啟應用程式只有 SmartGit 跟去 MicrosoftStore 挖應用程式...
 

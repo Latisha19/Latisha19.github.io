@@ -11,6 +11,8 @@ updated: 2025-02-21 17:07:54
 最明顯的功能大概就是 Stash 了吧...  
 原本只有 **[Keep staged changed]** 選項，更新後多出 **[Untracked files]** 與 **[All]** 兩個選項。
 
+<!-- more -->
+
 目前實驗如下：(假設已有 Stage 檔、Unstage 檔、Untracked 檔
 - **[Keep staged changed]**: 消失 unstage、untrack 保留；全部存入 stash
 - **[Untracked files]**: 全部消失、全部存入 stash

@@ -6,7 +6,7 @@ tags:
   - Codinggg/Lan/js
   - Codinggg/Tools
 date: 2025-01-14 11:00:08
-updated: 2025-03-27 11:39:14
+updated: 2025-03-27 13:48:00
 ---
 *** 緩慢更新中
 
@@ -15,6 +15,8 @@ updated: 2025-03-27 11:39:14
 總之先列一下我落落長的參考資料在註腳 [^1] 。(太多了已經不確定有沒有漏掉的了 QQ 新手努力參考)
 
 嚴格來說我用的是 [Guriddo jqGrid JS](https://www.guriddo.net/documentation/guriddo/javascript/#system-requirements)
+
+<!-- more -->
 
 ## 前置
 

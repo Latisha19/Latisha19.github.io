@@ -10,6 +10,8 @@ updated: 2025-02-21 17:08:53
 ---
 身為一個最近越來越常在搞 debug 的人而言 (why 呢，我也不曉得...)，使用 angular 是一定要 debug 的！
 
+<!-- more -->
+
 然而常常因為專案的 npm 版本太舊，使用 WebStorm 時無法 debug...
 
 > ref: [debugging - Unable to debug Angular with WebStorm - Stack  
