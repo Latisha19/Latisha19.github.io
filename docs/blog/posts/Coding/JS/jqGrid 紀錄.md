@@ -1,18 +1,18 @@
 ---
-tags:
-  - Codinggg/Tools/jqGrid
-  - Codinggg/Lan/js
 categories:
   - Codinggg
   - Tools
+tags:
+  - Codinggg/Lan/js
+  - Codinggg/Tools
 date: 2025-01-14 11:00:08
-updated: 2025-02-21 17:09:12
+updated: 2025-03-27 11:39:14
 ---
 *** 緩慢更新中
 
 沒想到居然會需要看起來算 n 年前的 jqGrid...  
 (看起來不支援已經有幾年了  
-總之先列一下我落落長的參考資料在註腳[^1] 。(太多了已經不確定有沒有漏掉的了QQ  新手努力參考)
+總之先列一下我落落長的參考資料在註腳 [^1] 。(太多了已經不確定有沒有漏掉的了 QQ 新手努力參考)
 
 嚴格來說我用的是 [Guriddo jqGrid JS](https://www.guriddo.net/documentation/guriddo/javascript/#system-requirements)
 

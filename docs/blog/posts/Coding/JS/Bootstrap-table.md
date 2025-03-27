@@ -5,7 +5,7 @@ categories:
   - Codinggg
   - Tools
 date: 2025-01-08 03:15:43
-updated: 2025-02-21 17:09:06
+updated: 2025-03-27 11:40:38
 ---
 
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
@@ -77,10 +77,36 @@ ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/co
 - `field`: 對應 json 值名稱、字串
 - `align`
 - `valign`
-- `sortable`: 是否啟用單欄排序、bool
-  
+- `sortable`: 是否啟用單欄排序、bool  
+
 - `titleTooltip`: 標頭工具提示、字串
 - `clickToSelect`
 - `formatter`: 方法，配合前面的 operateFormatter 使用
 - `escape`: 逃脫字元處理
 - `visible`: 該欄是否顯示處理 (配合邏輯決定：可用單行 if-else)
+
+- `editable`: 該欄位編輯、bool
+
+
+### Editable
+
+ref: [Editable with Bootstrap 5? · Issue #6034 · wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table/issues/6034)
+
+使用 Bootstrap 5 + 需求 cell 編輯。  
+試用成功，但不知為何更改值後按勾勾確定會爆掉...
+
+```
+Message= 
+Source= 
+StackTrace: 
+at Object.values (<anonymous>) 
+at un._isWithActiveTrigger (xxx/Scripts/bootstrap.bundle.min.js:6:68746) 
+at xxx/Scripts/bootstrap.bundle.min.js:6:64589 
+at m (xxx/Scripts/bootstrap.bundle.min.js:6:2010) 
+at HTMLDivElement.a (xxx/Scripts/bootstrap.bundle.min.js:6:2383) 
+at s (xxx/Scripts/bootstrap.bundle.min.js:6:636) 
+at xxx/Scripts/bootstrap.bundle.min.js:6:2434
+```
+
+於是決定切去其他方式：  
+[Tabulator + Bootstrap 5 css](Tabulator%20+%20Bootstrap%205%20css.md)
