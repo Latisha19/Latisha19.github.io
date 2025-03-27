@@ -7,7 +7,7 @@ tags:
   - Codinggg/Tools
   - Codinggg/Tools/Bootstrap
 date: 2025-03-27 11:38:19
-updated: 2025-03-27 12:03:00
+updated: 2025-03-27 15:30:14
 ---
 官網：[Tabulator | JavaScript Tables & Data Grids](https://tabulator.info/)  
 使用版本：v6.3
@@ -34,7 +34,7 @@ updated: 2025-03-27 12:03:00
 [DataTables實用code合籍](https://yoziming.github.io/post/220825-datatables/#datatables%e5%b0%8f%e6%8a%80%e5%b7%a7)  
 這篇。但後來發現編輯功能要收錢，只好放棄...
 
-jqGrid 擔心使用者覺得不夠美觀 (跟原先的 bootstrap-table 差太多了)
+[jqGrid 紀錄](jqGrid%20紀錄.md) 擔心使用者覺得不夠美觀 (跟原先的 bootstrap-table 差太多了)
 
 ## 主文
 
