@@ -5,18 +5,22 @@ tags:
   - Codinggg/FTP
   - Codinggg/Lan/Cs
 date: 2025-02-12 09:23:50
-updated: 2025-02-21 17:08:49
+updated: 2025-04-29 10:47:23
 ---
+使用 `FtpWebRequest`
+
 <!-- more -->
 ## 基礎
 
-取得遠端某資料夾內所有檔案清單：  
+### 取得遠端某資料夾內所有檔案清單  
+
 [Follow Fang!: C#.Net 透過FtpWebRequest取得FTP檔案清單](https://cyfangnotepad.blogspot.com/2017/02/cnet-ftpwebrequestftp.html)
 
-自遠端下載檔案：  
+### 自遠端下載檔案
+
 [［C#］從ftp server下載檔案＠[C#] 資料結構與影像處理｜PChome Online 個人新聞台](https://mypaper.pchome.com.tw/middlehuang/post/1321704699)
 
-循環從本機上傳資料夾內所有檔案到遠端：
+### 循環從本機上傳資料夾內所有檔案到遠端
 
 ```CS
 /// <summary>
@@ -64,25 +68,27 @@ private void UploadFileToFTP(string localFilePath, string ftpFilePath, string us
 
         using (FtpWebResponse response = (FtpWebResponse)request.GetResponse())
         {
-            SiteMaster.logger.Info($"檔案 {uploadfile} 上傳至 FTP 成功。({response.StatusDescription})");
+            logger.Info($"檔案 {uploadfile} 上傳至 FTP 成功。({response.StatusDescription})");
         }
     }
     catch (Exception ex)
     {
-        SiteMaster.logger.Error($"檔案 {uploadfile} 上傳至 FTP 失敗！錯誤訊息：{ex}");
+        logger.Error($"檔案 {uploadfile} 上傳至 FTP 失敗！錯誤訊息：{ex}");
     }
 }
 ```
 
 ## 進階
 
-檢查資料夾是否存在：  
+### 檢查資料夾是否存在
+
 [c# - How to Determine if FTP Directory Exists - Stack Overflow](https://stackoverflow.com/questions/24761583/how-to-determine-if-ftp-directory-exists)
 
-於遠端建立新資料夾：  
+### 於遠端建立新資料夾
+
 [.net - How do I create a directory on FTP server using C#? - Stack Overflow](https://stackoverflow.com/questions/860638/how-do-i-create-a-directory-on-ftp-server-using-c)
 
-建立多層子資料夾：
+### 建立多層子資料夾
 
 ```CS
 /// <summary>
@@ -124,15 +130,51 @@ private void CreateFtpDirectories(string ftp, string ftpDirectory, string userna
         }
         else
         {
-            SiteMaster.logger.Error($"建立 {ftpDirectory} 資料夾失敗！WebException 錯誤訊息：{ex}");
+            logger.Error($"建立 {ftpDirectory} 資料夾失敗！WebException 錯誤訊息：{ex}");
         }
     }
     catch (Exception ex)
     {
-        SiteMaster.logger.Error($"建立 {ftpDirectory} 資料夾失敗！其他錯誤訊息：{ex}");
+        logger.Error($"建立 {ftpDirectory} 資料夾失敗！其他錯誤訊息：{ex}");
     }
 }
 ```
 
-本機上傳整個資料夾到遠端：  
+### 本機上傳整個資料夾到遠端
+
 [recursion - C# Upload whole directory using FTP - Stack Overflow](https://stackoverflow.com/questions/13311975/c-sharp-upload-whole-directory-using-ftp)
+
+### 資料夾檔名更新
+
+參考：
+1. [c# - Rename directory on FTP server using FtpWebRequest - Stack Overflow](https://stackoverflow.com/questions/38846542/rename-directory-on-ftp-server-using-ftpwebrequest)
+2. [c# - How to rename a file after upload - Stack Overflow](https://stackoverflow.com/questions/13026170/how-to-rename-a-file-after-upload)
+
+```cs
+string ftpDirectory = $"{ftpServer}/old";  
+  
+FtpWebRequest request = (FtpWebRequest)WebRequest.Create(ftpDirectory);  
+request.Method = WebRequestMethods.Ftp.Rename;  
+request.Credentials = new NetworkCredential(usrname, pwd);  
+request.RenameTo = $"new";  
+
+try  
+{  
+	// 發送請求並取得回應  
+	using (FtpWebResponse response = (FtpWebResponse)request.GetResponse())  
+	{  
+		logger.Info(
+			$"資料夾名稱已成功更改為：new；"+
+			$"伺服器回應：{response.StatusDescription}"
+		);
+	}  
+}  
+catch (Exception ex)  
+{  
+	logger.Error($"檔案資料夾名稱改名失敗！錯誤訊息：{ex.ToString()}");  
+}
+```
+
+### 下載檔案後附檔寄信
+
+ref: [asp.net - Attach file existing on FTP server to mail in C# .NET - Stack Overflow](https://stackoverflow.com/questions/50550945/attach-file-existing-on-ftp-server-to-mail-in-c-sharp-net)
