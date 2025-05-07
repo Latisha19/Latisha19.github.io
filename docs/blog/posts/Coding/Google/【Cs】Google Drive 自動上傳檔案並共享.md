@@ -8,7 +8,7 @@ tags:
   - Codinggg/Tools
   - Tools
 date: 2025-05-05 16:54:28
-updated: 2025-05-07 14:35:39
+updated: 2025-05-07 15:03:46
 ---
 ## 文前言
 
@@ -64,6 +64,16 @@ updated: 2025-05-07 14:35:39
 (目前尚未找到如何不依靠自己的帳號就能檢視到服務帳號上傳的所有檔案  
 除了走程式看以外  
 所以先這樣做。)
+
+### 一點參數
+
+`.Fields`:
+
+- `*`: 全部顯示
+- id: 該檔案 id
+- name: 該檔案檔名
+- webViewLink: 共享後的純檢視用連結
+- parents: 該檔案父資料夾 ID
 
 ### 簡易範例
 
@@ -135,13 +145,6 @@ permissionRequest.Execute();
 請打開自己想與服務帳號共用的資料夾  
 看看連結：`https://drive.google.com/drive/folders/XXX`  
 那個 XXX 就是要填進去 `Parents` 的東東
-
-`.Fields`:
-- `*`: 全部顯示
-- id: 該檔案 id
-- name: 該檔案檔名
-- webViewLink: 共享後的純檢視用連結
-- parents: 該檔案父資料夾 ID
 
 (本段來源：[^fn1]、參照 [^fn5] 調整修改)
 
