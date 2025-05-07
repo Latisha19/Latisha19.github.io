@@ -6,7 +6,7 @@ tags:
   - Codinggg/Lan/js
   - Codinggg/Tools
 date: 2025-03-31 15:07:52
-updated: 2025-03-31 16:08:31
+updated: 2025-05-07 15:09:07
 ---
 ## 文前言...
 
@@ -67,11 +67,12 @@ updated: 2025-03-31 16:08:31
 4. 結束！
 
 主要變動的是 JS 的部分。
-* XXX => 看使用哪種圖表：圓餅圖 `PieChart`、直方圖 `ColumnChart`...
-* `data`: array 的部分
-	* 第一個是名稱 (用在圖例名稱、滑鼠移上的時候顯示)
-	* 第二個是數量 (次數之類的)
-	* 動態資料可採用一般 js 寫法：
+
+- XXX => 看使用哪種圖表：圓餅圖 `PieChart`、直方圖 `ColumnChart`...
+- `data`: array 的部分
+	- 第一個是名稱 (用在圖例名稱、滑鼠移上的時候顯示)
+	- 第二個是數量 (次數之類的)
+	- 動態資料可採用一般 js 寫法：
 	```js
 	let dataTable = [
 		['name', 'count'],
@@ -81,18 +82,19 @@ updated: 2025-03-31 16:08:31
 	// 初始化 Google Charts 的 DataTable
 	let data = google.visualization.arrayToDataTable(dataTable);
 	```
-* `options`: 各種選項。比如設定圖的寬與高、圖例顯示與否及擺放位置、圓餅圖改 3D 版...
+- `options`: 各種選項。比如設定圖的寬與高、圖例顯示與否及擺放位置、圓餅圖改 3D 版...
 
 另外注意：`drawChart()` 函式只能出現一次，所以不管你要畫幾個圖都要放在同一個 `drawChart()` 裡面，不要像我一樣傻 QQ
 
 ### 共用 `options` (應該？)
 
-* `title`: string、圖表顯示名稱
+- `title`: string、圖表顯示名稱
 * `width`、`height`: int、圖表寬與高
 * `legend`: 物件、圖例顯示位置
 	* eg: `{js} legend: {position: 'top', textStyle: {color: 'blue', fontSize: 16}},`
 
 ref: [Google Chart Background Color - Stack Overflow](https://stackoverflow.com/questions/8808100/google-chart-background-color)
+
 * `backgroundColor`: 物件、設定圖表背景色 (預設白色)
 	* eg: `{js} backgroundColor: { fill: 'snow' },`
 

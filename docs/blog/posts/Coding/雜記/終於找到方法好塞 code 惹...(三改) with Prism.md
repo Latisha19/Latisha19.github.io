@@ -4,7 +4,7 @@ tags:
 categories:
   - 雜記
 date: 2025-01-14 11:01:37
-updated: 2025-03-31 17:05:30
+updated: 2025-05-07 15:08:46
 ---
 
 哎呀真好看 (捧臉
@@ -20,10 +20,11 @@ updated: 2025-03-31 17:05:30
   
 
 ref: 
-* [Prism.js 網頁程式碼高亮顯示工具](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
-* [Prism.js 推薦套件和使用方式教學](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
-* [[技術分享] 寫給會在部落格中撰寫程式碼的你 ─ 在網頁中嵌入高亮程式碼上色 (syntax highlighting)](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
-* [使用 Prism.js 在 Blogger 加入程式語言高亮（Highlight）](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
+
+- [Prism.js 網頁程式碼高亮顯示工具](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
+- [Prism.js 推薦套件和使用方式教學](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
+- [[技術分享] 寫給會在部落格中撰寫程式碼的你 ─ 在網頁中嵌入高亮程式碼上色 (syntax highlighting)](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
+- [使用 Prism.js 在 Blogger 加入程式語言高亮（Highlight）](https://www.blogger.com/blog/post/edit/6558487227761678795/3425602686891804413#)
 
   
 

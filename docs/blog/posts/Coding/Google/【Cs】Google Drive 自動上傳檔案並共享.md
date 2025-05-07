@@ -39,6 +39,7 @@ updated: 2025-05-07 14:35:39
 裝這個會一並裝好相依套件。
 
 套件詳細請見此：
+
 - [googleapis/google-api-dotnet-client: Google APIs Client Library for .NET](https://github.com/googleapis/google-api-dotnet-client)
 - [NuGet Gallery | Google.Apis.Drive.v3 1.69.0.3740](https://www.nuget.org/packages/Google.Apis.Drive.v3/1.69.0.3740)
 
@@ -47,6 +48,7 @@ updated: 2025-05-07 14:35:39
 接下來請依照 [^fn2] 設定權限啦！
 
 這裡也是為何本文會出現的其他原因：
+
 1. [^fn1] 使用的是 v2，改 v3 有些地方需要修改
 2. 個人只需要用服務帳號，沒有 OAuth 2.0 的需求。此處請依照自己選擇決定。
 
@@ -261,6 +263,7 @@ foreach (var filee in files)
 這裡就不寫了，參照篇寫得很詳細
 
 *** 注意：更新檔案
+
 1. 一定要抓原檔案 id 去更新，否則會得到同名檔案共存。
 2. 更新檔案不會影響：共享狀態與連結、檔案 id
 
