@@ -1,9 +1,11 @@
 ---
-tags: 
+tags:
+  - Tools
 categories:
   - 雜記
+  - GOOGLE
 date: 2025-01-14 10:59:46
-updated: 2025-04-01 17:52:59
+updated: 2025-05-07 15:03:3012
 ---
 都是去 [chrome://flags/](chrome://flags/) 裡面調整
 
