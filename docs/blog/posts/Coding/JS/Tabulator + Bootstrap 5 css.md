@@ -7,7 +7,7 @@ tags:
   - Codinggg/Tools
   - Codinggg/Tools/Bootstrap
 date: 2025-03-27 11:38:19
-updated: 2025-03-27 15:30:14
+updated: 2025-03-27 15:51:32
 ---
 官網：[Tabulator | JavaScript Tables & Data Grids](https://tabulator.info/)  
 使用版本：v6.3
@@ -42,7 +42,24 @@ updated: 2025-03-27 15:30:14
 
 初始化使用方式請參照官網：[Quickstart Guide | Tabulator](https://tabulator.info/docs/6.3/quickstart)  
 另外主題個人使用了：[Bootstrap 5 Theme](https://tabulator.info/docs/6.3/theme#framework-boot5)
-### 編輯
+
+借 ChatGPT 問了範例資料來做展示：
+
+![](../../../../assets/images/Tabulator%20+%20Bootstrap%205%20css_EXAMPLE.png)
+
+### Column
+
+```js
+// 全域設定欄位的對齊方式
+columnDefaults: {
+    hozAlign: "center",        // 設定所有欄位的水平對齊方式
+    headerHozAlign: "center",  // 設定所有欄位標題的水平對齊方式
+    vertAlign: "middle"
+},
+```
+
+全域寫的好處是如果欄位很多，就不用每個都複製貼上同樣的東西。
+### Edit
 
 ref: [Editing Data | Tabulator](https://tabulator.info/docs/6.3/edit)  
 沒有特殊需求的話可以直接照網頁內 [Overview](https://tabulator.info/docs/6.3/edit#overview) 展示的寫法 
@@ -89,6 +106,8 @@ ref: [Editing Data | Tabulator](https://tabulator.info/docs/6.3/edit)
 
 ref: [Pagination | Tabulator](https://tabulator.info/docs/6.3/page)
 
+分頁按鈕會自帶 tooltip 顯示。  
+
 會有預設英文分頁，所以可以參考 [Local lang](#Local%20lang) 自訂。例如：
 
 ```js
@@ -111,6 +130,15 @@ langs: {
 結果：  
 
 ![](../../../../assets/images/Tabulator%20+%20Bootstrap%205%20css_pagina%20lang.png)
+
+
+其他設定範例：
+
+```js
+pagination: "local",    //資料來自本機
+paginationSize: 10,   //一頁最多顯示幾筆
+paginationButtonCount: 10,  //分頁按鈕一次顯示幾個
+```
 
 ### Local lang
 

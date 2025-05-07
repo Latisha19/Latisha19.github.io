@@ -6,7 +6,7 @@ categories:
   - Codinggg
   - debug
 date: 2025-01-14 10:58:19
-updated: 2025-02-21 17:08:53
+updated: 2025-03-31 17:03:25
 ---
 身為一個最近越來越常在搞 debug 的人而言 (why 呢，我也不曉得...)，使用 angular 是一定要 debug 的！
 
@@ -24,12 +24,13 @@ updated: 2025-02-21 17:08:53
 以下就來點快樂 debug 吧：
 1. 使用 vscode 開啟專案
 2. 開啟專案內的 package.json 檔案
-3. 有看到這顆小小的 Debug 按鈕嗎？給他按下去！
-4. vscode 會自動開啟終端機開跑 debug！
-5. 快樂 debug 人生
+3. ![](../../../assets/images/Angular%20&%20debug_debug%20btn.png)  
+4. 有看到這顆小小的 Debug 按鈕嗎？給他按下去！
+5. vscode 會自動開啟終端機開跑 debug！
+6. 快樂 debug 人生
 
-...雖說如此，但是 debug 好累啊...
-
+...雖說如此，但是 debug 好累啊...  
+但總算有好辦法處理了…
 
 
 

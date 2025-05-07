@@ -5,7 +5,7 @@ categories:
   - Codinggg
   - Tools
 date: 2025-01-08 03:15:43
-updated: 2025-03-27 11:40:38
+updated: 2025-03-31 12:02:42
 ---
 
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
@@ -44,8 +44,15 @@ ref: [Bootstrap框架的Icons使用教程- 66字體網](http://www.ziti66.com/ne
 ref: [Table Options · Bootstrap Table](https://bootstrap-table.com/docs/api/table-options/#detailformatter)
 
 要求回傳字串，因此容易有 XSS 問題  
-因為本人需求太過複雜，所以只好用字串塞  
+因本人需求太過複雜，所以只好用字串塞  
 接外部傳入參數請小心。
+
+#### Detail Filter
+
+決定哪些需要展開行
+
+使用方式：[Table Options · Bootstrap Table](https://bootstrap-table.com/docs/api/table-options/#detailfilter)  
+demo: [Detail Filter /Bootstrap Table Examples](https://examples.bootstrap-table.com/index.html#options/detail-filter.html)
 
 ### operateFormatter
 
