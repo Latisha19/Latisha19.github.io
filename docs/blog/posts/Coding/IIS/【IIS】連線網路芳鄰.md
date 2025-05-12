@@ -191,4 +191,4 @@ public void DisconnNetworkDrive()
 [存取被拒絕，因此無法開始監視 \\x.x.x.x\XXX 的變更 (IIS7) | The Will Will Web](https://blog.miniasp.com/post/2009/05/20/Failed-to-start-monitoring-directory-changes-when-using-UNC-virtual-directory-IIS7)
 
 目前暫時改用 FTP 處理。  
-[【FTP】Csharp 版](../【FTP】Csharp%20版.md)
+[【FTP】Csharp 版](【FTP】Csharp%20版.md)
