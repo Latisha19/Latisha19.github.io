@@ -7,7 +7,7 @@ categories:
   - Tools
   - PDF
 date: 2025-01-17 11:34:04
-updated: 2025-04-21 17:17:38
+updated: 2025-06-19 15:00:32
 ---
 ## 文前言
 
@@ -225,7 +225,7 @@ using (FileStream inputStream
 ```cs
 string savePng;
 using (FileStream inputStream 
-	= new FileStream(pdf 路徑), FileMode.Open, FileAccess.Read, FileShare.Read, 4096, FileOptions.SequentialScan))
+	= new FileStream(pdf 路徑, FileMode.Open, FileAccess.Read, FileShare.Read, 4096, FileOptions.SequentialScan))
 {
     int page = 0;
 
@@ -249,4 +249,12 @@ private static Stream CreateOutputStream(string expectedPath)
     else
         return new MemoryStream();
 }
+```
+
+
+取得 pdf 頁數：  
+ref: [PDFtoImage/src/PDFtoImage/PublicAPI/net481/PublicAPI.Shipped.txt at 26a33fcf18b1516926d6ff791fe9b3fbf9f2165f · sungaila/PDFtoImage](https://github.com/sungaila/PDFtoImage/blob/26a33fcf18b1516926d6ff791fe9b3fbf9f2165f/src/PDFtoImage/PublicAPI/net481/PublicAPI.Shipped.txt#L91)
+
+```c#
+Conversion.GetPageCount(xxx);
 ```

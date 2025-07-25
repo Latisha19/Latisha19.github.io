@@ -6,7 +6,7 @@ tags:
   - Codinggg/Lan/js
   - Codinggg/Tools
 date: 2025-03-31 15:07:52
-updated: 2025-05-07 15:09:07
+updated: 2025-07-01 13:28:13
 ---
 ## 文前言...
 
@@ -132,6 +132,16 @@ let chart = new google.visualization.ColumnChart(document.getElementById('chart'
 chart.draw(view, options);
 ```
 
+
+### Gantt
+
+ref: [Gantt Charts  |  Google for Developers](https://developers.google.com/chart/interactive/docs/gallery/ganttchart)
+
+因為不符合我的需求  
+因此沒有採用  
+可參考官方文件處理
+
+適合簡易版甘特圖，複雜的可能要看看怎麼客製化
 
 ### Pie Chart 圓餅圖
 

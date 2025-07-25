@@ -6,12 +6,12 @@ tags:
   - Codinggg/Lan/Cs
   - Codinggg/Tools
 date: 2025-04-22 10:56:17
-updated: 2025-04-22 17:43:45
+updated: 2025-06-24 16:29:02
 ---
 ## 文前言
 
 寫這篇的目的是比較兩圖片間的差值並框出  
-一開始只打算當作雜記，畢竟個人對 OpenCv 真的是相當不熟悉...
+一開始只打算當作雜記，畢竟個人對 OpenCV 真的是相當不熟悉...
 
 萬萬沒想到翻遍網路都沒查到  
 OpenCvSharp4 & .NET Framework WebForm 究竟怎樣才不會爆
@@ -24,6 +24,8 @@ OpenCvSharp4 & .NET Framework WebForm 究竟怎樣才不會爆
 經由 ChatGPT 努力不懈成功解決。  
 當然，也可能解決方法有其他問題  
 但不論如何至少可以運作了 QQQ
+
+OpenCvSharp4 官方文件：[Welcome to the OpenCvSharp](https://shimat.github.io/opencvsharp_docs/html/d69c29a1-7fb1-4f78-82e9-79be971c3d03.htm)
 
 <!-- more -->
 
@@ -86,3 +88,12 @@ using (var mat = new Mat(100, 100, MatType.CV_8UC3, new Scalar(255, 0, 0)))
 ### 用法
 
 (研究中...)
+
+
+## UPDATE LOG
+
+114.
+
+04/22 開新篇
+
+06/24 更正誤字、補上官方文件連結

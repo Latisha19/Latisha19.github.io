@@ -8,7 +8,7 @@ tags:
   - Codinggg/Tools
   - Tools
 date: 2025-05-05 16:54:28
-updated: 2025-05-07 15:03:46
+updated: 2025-06-03 11:54:41
 ---
 ## 文前言
 
@@ -66,6 +66,12 @@ updated: 2025-05-07 15:03:46
 所以先這樣做。)
 
 ### 一點參數
+
+ref: 
+
+- [REST Resource: files  |  Google Drive  |  Google for Developers](https://developers.google.com/workspace/drive/api/reference/rest/v3/files)
+- [Return specific fields  |  Google Drive  |  Google for Developers](https://developers.google.com/workspace/drive/api/guides/fields-parameter?hl=en)
+
 
 `.Fields`:
 

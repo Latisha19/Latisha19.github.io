@@ -5,7 +5,7 @@ categories:
   - 雜記
   - GOOGLE
 date: 2025-01-14 10:59:46
-updated: 2025-05-07 15:03:3012
+updated: 2025-05-22 15:40:06
 ---
 都是去 [chrome://flags/](chrome://flags/) 裡面調整
 
@@ -32,6 +32,7 @@ updated: 2025-05-07 15:03:3012
 > 註記：2/22 chrome 更新後這招不能用了 QQ 另外想想
 
 ## 側邊面版
+
 剛推出的時候很不習慣，但後來發現用來立即撈出特定書籤還挺方便。  
 沒想到今天看忽然消失了...我的書籤怎摸辦...  
 而後上網挖到了 [Google Chrome removes side panel button in favor of pinning](https://9to5google.com/2024/04/12/chrome-side-panel-button/) 
@@ -45,3 +46,17 @@ updated: 2025-05-07 15:03:3012
 
 
 > Written with [StackEdit](https://stackedit.io/).
+
+
+
+## 網頁版 AI 摘要顯示
+
+114.05.22 可用
+
+關閉方式請見：(會直連解決方案)  
+[Is there a real way to shut off the Google AI overview for searches, or am i switching browsers and search engines? : r/techsupport](https://www.reddit.com/r/techsupport/comments/1h9jpqs/comment/m7j9n8m/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+個人搜谷歌會比較喜歡一個一個網站看過去，要用 AI 時才會打開專屬頁面詢問  
+所以不喜歡兩者合一
+
+見仁見智啦
