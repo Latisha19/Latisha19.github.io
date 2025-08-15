@@ -3,7 +3,6 @@ comments: true
 tags:
   - Codinggg/Tools
 categories:
-  - Notepad++
   - Tools
   - Codinggg
 date: 2025-01-14 11:00:41
