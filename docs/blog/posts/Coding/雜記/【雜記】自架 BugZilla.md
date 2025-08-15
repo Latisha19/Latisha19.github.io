@@ -52,7 +52,7 @@ The e-mail address you entered (lynx http://localhost/bugzilla/xxx@gmail.com) di
 
 成功架起來的成果：
 
-![](雜記自架%20BugZilla_bugzilla.png)
+![](assets/images/雜記自架%20BugZilla_bugzilla.png)
 
 
 
@@ -112,7 +112,7 @@ The e-mail address you entered (lynx http://localhost/bugzilla/xxx@gmail.com) di
 - smtpserver: 伺服器嘛
 
 寄信成功圖：  
-![](雜記自架%20BugZilla_mail.png)
+![](/assets/images/雜記自架%20BugZilla_mail.png)
 
 
 

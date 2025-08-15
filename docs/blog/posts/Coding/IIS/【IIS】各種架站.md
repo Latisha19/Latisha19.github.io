@@ -19,4 +19,4 @@ updated: 2025-08-15 10:31:37
 
 安裝請找：
 
-![](IIS各種架站_API.png)
+![](assets/images/IIS各種架站_API.png)
