@@ -19,6 +19,8 @@ updated: 2025-08-15 10:31:59
 
 ref: [玩具烏托邦: 架設 bugzilla， 懶人版](https://newtoypia.blogspot.com/2020/05/bugzilla.html)
 
+<!-- more -->
+
 ## 主文
 
 ### 至少得先理解一點？？
