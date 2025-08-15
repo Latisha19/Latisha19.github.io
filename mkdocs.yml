@@ -12,6 +12,7 @@ copyright: Copyright &copy; 2023 - 2025 Latisha^^
 
 theme:
     name: material
+    custom_dir: overrides
     font:
        text: LXGW WenKai Mono TC
     features:

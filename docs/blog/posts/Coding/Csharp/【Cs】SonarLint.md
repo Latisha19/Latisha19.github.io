@@ -1,10 +1,11 @@
 ---
+comments: true
 tags:
   - Codinggg/Lan/Cs
 categories:
   - Codinggg
 date: 2025-01-14 10:48:51
-updated: 2025-03-27 15:31:06
+updated: 2025-08-15 10:31:02
 ---
 ref: [C# static code analysis](https://rules.sonarsource.com/csharp/)
 

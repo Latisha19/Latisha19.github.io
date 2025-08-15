@@ -1,3 +1,10 @@
+---
+comments: true
+categories: 
+tags: 
+date: 2025-02-21 17:21:24
+updated: 2025-08-15 10:38:05
+---
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

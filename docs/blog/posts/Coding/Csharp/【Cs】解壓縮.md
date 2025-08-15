@@ -1,10 +1,11 @@
 ---
+comments: true
 tags:
   - Codinggg/Lan/Cs
 categories:
   - Codinggg
 date: 2025-01-24 10:34:39
-updated: 2025-02-21 17:08:10
+updated: 2025-08-15 10:31:14
 ---
 原先是嘗試使用其他的開源解壓縮  
 測試壓縮檔內有一千多個檔案，解了五分鐘以上，決定換掉  

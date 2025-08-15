@@ -1,10 +1,11 @@
 ---
+comments: true
 tags:
   - IS/XSS
 categories:
   - IS
 date: 2025-01-08 03:15:43
-updated: 2025-02-21 17:09:46
+updated: 2025-08-15 10:31:42
 ---
 ## `C#`
 

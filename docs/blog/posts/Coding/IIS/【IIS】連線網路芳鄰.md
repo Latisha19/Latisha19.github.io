@@ -1,11 +1,12 @@
 ---
+comments: true
 categories:
   - IIS
   - Codinggg
 tags:
   - Codinggg/IIS
 date: 2025-02-06 09:39:29
-updated: 2025-05-07 15:07:50
+updated: 2025-08-15 10:31:39
 ---
 參考是找了很多，但到最後依舊無法成功利用虛擬目錄接網芳。
 

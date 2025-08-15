@@ -1,11 +1,12 @@
 ---
+comments: true
 categories:
   - 雜記
   - GOOGLE
 tags:
   - Tools
 date: 2025-04-07 17:53:21
-updated: 2025-05-407-5:025 13:334:59:07
+updated: 2025-08-15 10:32:30
 ---
 ## 電腦版 設定檔 & 選擇設定檔 icon 頁面同一個
 

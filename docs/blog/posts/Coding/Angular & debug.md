@@ -1,4 +1,5 @@
 ---
+comments: true
 tags:
   - Codinggg/Lan/Angular
   - Codinggg/debug
@@ -6,7 +7,7 @@ categories:
   - Codinggg
   - debug
 date: 2025-01-14 10:58:19
-updated: 2025-03-31 17:03:25
+updated: 2025-08-15 10:32:03
 ---
 身為一個最近越來越常在搞 debug 的人而言 (why 呢，我也不曉得...)，使用 angular 是一定要 debug 的！
 

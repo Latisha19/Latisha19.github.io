@@ -1,11 +1,12 @@
 ---
+comments: true
 categories:
   - Codinggg
 tags:
   - Codinggg/Lan/Cs
   - Codinggg/LINQ
 date: 2025-02-13 03:02:02
-updated: 2025-03-27 15:30:58
+updated: 2025-08-15 10:31:20
 ---
 在 LINQ 寫 `.Where` 做 `.Contains`  
 依照官方說法  

@@ -1,4 +1,5 @@
 ---
+comments: true
 categories:
   - Codinggg
   - Tools
@@ -7,7 +8,7 @@ tags:
   - Codinggg/Tools
   - Codinggg/Tools/Bootstrap
 date: 2025-03-27 11:38:19
-updated: 2025-03-27 15:51:32
+updated: 2025-08-15 10:31:53
 ---
 官網：[Tabulator | JavaScript Tables & Data Grids](https://tabulator.info/)  
 使用版本：v6.3
