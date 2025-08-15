@@ -23,6 +23,7 @@ updated: 2025-08-15 10:32:03
 
 直到最近某天因為 WebStorm 太大隻了改開 vscode，意外發現 debug 的新方法！  
 以下就來點快樂 debug 吧：
+
 1. 使用 vscode 開啟專案
 2. 開啟專案內的 package.json 檔案
 3. ![](../../../assets/images/Angular%20&%20debug_debug%20btn.png)  

@@ -20,6 +20,7 @@ updated: 2025-08-15 10:34:17
 模板是空表格，有固定行列數及 cell 寬與高。cell 內要求塞入圖片。
 
 .doc 要處理，直接詢問 ChatGPT，得到了：
+
 1. `Microsoft.Office.Interop.Word`，但不建議
 2. `DocumentFormat.OpenXml`，建議但要改用 .docx。
 
@@ -35,6 +36,7 @@ updated: 2025-08-15 10:34:17
 程式碼本身還好，但架站開始是大惡夢...
 
 網路資源參考：
+
 1. [網頁伺服器端Word合併列印實作(.NET C#)](https://www.cc.ntu.edu.tw/chinese/epaper/home/20231220_006708.html)
 2. [[COM]為什麼Office在DCOM設定中找不到 | 亂馬客 - 點部落](https://dotblogs.com.tw/rainmaker/2012/12/13/85621)
 3. [在DCOM設定中找不到 Microsoft Word - HackMD](https://hackmd.io/@aO674exYRgWnn1BgZhND9A/SJUSZQ8Ss)

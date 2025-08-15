@@ -43,10 +43,12 @@ ref: [How to debug code with Microsoft Visual Studio 2022 | Unity](https://unity
 	[Player Settings...] > [Resolution and Presentation]>
 	
 	[Resolution] > 
+	
 	- [Fullscreen Mode] : [Windowed]
 	- [Run In Background] : false
 	
 	[Standalone Player Options] >
+	
 	- [Resizable Window] : true
 	- [Visible In Background] : false
 	- [Allow Fullscreen Switch] : true
