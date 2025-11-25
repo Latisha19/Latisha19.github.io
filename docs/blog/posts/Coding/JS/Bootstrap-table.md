@@ -5,16 +5,18 @@ tags:
 categories:
   - Codinggg
   - Tools
-date: 2025-01-08 03:15:43
-updated: 2025-08-15 10:31:44
+date: 2025-01-08 15:15:43
+updated: 2025-11-24 14:50:06
 ---
+## 文前言
+
 
 官網：[Bootstrap Table · An extended table to the integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)](https://bootstrap-table.com/)
 
 基於要把 WebForm 改版成 row 可點選展開的樣式，加上時間問題，因此選擇現成解法。  
 當然因為這個解法目前個人寫起來容易有 XSS 問題，所以未來還要再改版一次...
 
-目前最新版是 1.24.0  
+目前最新版是 1.24.0    
 之前的意外放了 CSS v1.23.5 + JS v1.15.5，後來察覺不對就調成一致用最新版了。
 
 目前觀察到的版本升級差異：  
@@ -24,7 +26,9 @@ updated: 2025-08-15 10:31:44
 基本製作參考了 [Bootstrap Table 響應式表格. 前言 | by 鯫生's Coding World | Medium](https://timchen0607.medium.com/bootstrap-table-%E9%9F%BF%E6%87%89%E5%BC%8F%E8%A1%A8%E6%A0%BC-9f6bb11fc5bc)
 <!-- more -->
 
-## 中間來談一下 bootstrap-icon 吧。
+## 主文
+
+### 中間來談一下 bootstrap-icon 吧。
 
 引用方式：原本先看了 bootstrap-table 的官網得知引用了 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css ，後來查了網路找到新說法，也驗證成功。  
 ref: [Bootstrap框架的Icons使用教程- 66字體網](http://www.ziti66.com/net/html/68.html)  
@@ -38,9 +42,9 @@ ref: [Bootstrap框架的Icons使用教程- 66字體網](http://www.ziti66.com/ne
 
 
 
-## detail-formatter, operateFormatter
+### detail-formatter, operateFormatter
 
-### detail-formatter
+#### detail-formatter
 
 ref: [Table Options · Bootstrap Table](https://bootstrap-table.com/docs/api/table-options/#detailformatter)
 
@@ -48,14 +52,14 @@ ref: [Table Options · Bootstrap Table](https://bootstrap-table.com/docs/api/tab
 因本人需求太過複雜，所以只好用字串塞  
 接外部傳入參數請小心。
 
-#### Detail Filter
+##### Detail Filter
 
 決定哪些需要展開行
 
 使用方式：[Table Options · Bootstrap Table](https://bootstrap-table.com/docs/api/table-options/#detailfilter)  
 demo: [Detail Filter /Bootstrap Table Examples](https://examples.bootstrap-table.com/index.html#options/detail-filter.html)
 
-### operateFormatter
+#### operateFormatter
 
 ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/column-options/#formatter)
 
@@ -68,14 +72,14 @@ ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/co
 因為本人需求不大，放按鈕就好  
 所以先用 `HTMLElement` 組好，再用 `.innerHtml` 回傳。
 
-## 另外用法
+### 另外用法
 
 checkbox:  
 預設的是連 title 都是一個 checkbox  
 希望有自訂 title 名稱可用 detail-formatter 處理。
 
 
-## Column Options
+### Column Options
 
 ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/column-options/)
 
@@ -95,8 +99,10 @@ ref: [Column Options · Bootstrap Table](https://bootstrap-table.com/docs/api/co
 
 - `editable`: 該欄位編輯、bool
 
+- `checkbox`: 啟用的話 thead 也會連帶出現 checkbox、bool
 
-### Editable
+
+#### Editable
 
 ref: [Editable with Bootstrap 5? · Issue #6034 · wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table/issues/6034)
 
@@ -118,3 +124,18 @@ at xxx/Scripts/bootstrap.bundle.min.js:6:2434
 
 於是決定切去其他方式：  
 [Tabulator + Bootstrap 5 css](Tabulator%20+%20Bootstrap%205%20css.md)
+
+
+## UPDATE LOG
+
+113.
+
+12/31 開文
+
+
+114.
+
+01/08 加入 git  
+03/27 [Column Options](#Column%20Options) 更新；加入 [Editable](#Editable)  
+03/31 加入 [Detail Filter](#Detail%20Filter)  
+11/24 [Column Options](#Column%20Options) 更新、調整版面結構
