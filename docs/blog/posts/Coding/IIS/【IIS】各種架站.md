@@ -3,7 +3,7 @@ comments: true
 categories: []
 tags:
 date: 2025-07-24 10:24:19
-updated: 2025-08-15 11:10:49
+updated: 2025-11-25 15:12:35
 ---
 ## 文前言
 
@@ -12,6 +12,8 @@ updated: 2025-08-15 11:10:49
 ## 主文
 
 ### .NET 8.0 API
+
+<!-- more -->
 
 可參考：
 

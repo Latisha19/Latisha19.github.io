@@ -3,7 +3,7 @@ comments: true
 categories: []
 tags:
 date: 2025-05-08 14:22:45
-updated: 2025-08-15 10:31:25
+updated: 2025-11-25 17:05:21
 ---
 
 ## 主文
@@ -24,6 +24,8 @@ git log TAG..HEAD --pretty=format:"%s"
 
 若想順序反過來列 (亦即舊到新)：  
 命令尾加上 `--reverse`
+
+<!-- more -->
 
 ### 救援誤刪的 stash
 
