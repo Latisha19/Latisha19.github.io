@@ -117,6 +117,5 @@ public class UserDAL
 ## UPDATE LOG
 
 114.
-
 06/30 開文  
 07/18 加上 User Control 段落

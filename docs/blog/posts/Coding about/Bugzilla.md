@@ -5,7 +5,7 @@ categories:
 tags:
   - Tools
 date: 2025-12-02 16:44:55
-updated: 2025-12-04 14:40:52
+updated: 2026-01-21 17:01:15
 ---
 ## 文前言
 
@@ -194,7 +194,6 @@ ref: [How To Delete Bugs in Bugzilla – devZing Blog](https://devzing.com/blog/
 ## UPDATE LOG
 
 114.
-
 12/02 開新篇
 
 

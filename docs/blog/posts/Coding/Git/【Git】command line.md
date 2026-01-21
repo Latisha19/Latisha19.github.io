@@ -3,7 +3,7 @@ comments: true
 categories: []
 tags:
 date: 2025-05-08 14:22:45
-updated: 2025-11-25 17:05:21
+updated: 2026-01-21 17:00:32
 ---
 
 ## 主文
@@ -68,6 +68,5 @@ git stash apply AAA
 ## UPDATE LOG
 
 114.
-
-05/08 開文 (TAG  
-07/10 追加 救援誤刪的 stash
+05/08 開文 [tag](#tag)  
+07/10 追加 [救援誤刪的 stash](#救援誤刪的%20stash)

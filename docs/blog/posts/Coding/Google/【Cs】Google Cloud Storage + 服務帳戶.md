@@ -3,7 +3,7 @@ comments: true
 categories: []
 tags:
 date: 2026-01-09 11:05:01
-updated: 2026-01-15 10:53:14
+updated: 2026-01-21 16:59:19
 ---
 ## 文前言
 
@@ -275,5 +275,4 @@ private string GenerateSignedUrl(string objectName)
 ## UPDATE LOG
 
 115.
-
 01/09 開新文

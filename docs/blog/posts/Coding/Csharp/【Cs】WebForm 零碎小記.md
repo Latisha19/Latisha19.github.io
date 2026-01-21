@@ -6,7 +6,7 @@ tags:
   - Codinggg/Lan/Cs
   - Codinggg/WebForm
 date: 2025-11-26 13:56:03
-updated: 2025-11-26 14:05:16
+updated: 2026-01-21 16:59:46
 ---
 ## 文前言
 
@@ -62,5 +62,4 @@ public class Handler : HttpTaskAsyncHandler
 ## UPDATE LOG
 
 114.
-
 11/26 開文

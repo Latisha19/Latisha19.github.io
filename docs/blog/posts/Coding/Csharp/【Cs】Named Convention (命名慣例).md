@@ -5,7 +5,7 @@ categories:
 tags:
   - Codinggg/Lan/Cs
 date: 2026-01-16 17:03:49
-updated: 2026-01-16 17:10:37
+updated: 2026-01-21 16:59:30
 ---
 ## 文前言
 
@@ -27,4 +27,4 @@ ref: [General Naming Conventions - Framework Design Guidelines | Microsoft Learn
 ## UPDATE LOG
 
 115.
-- 01/16 開新篇
+01/16 開新篇

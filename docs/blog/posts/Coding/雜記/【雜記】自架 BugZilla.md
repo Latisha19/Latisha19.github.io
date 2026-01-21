@@ -7,7 +7,7 @@ tags:
   - Tools
   - Docker
 date: 2025-05-29 14:40:01
-updated: 2025-08-15 10:31:59
+updated: 2026-01-21 17:01:05
 ---
 ## 文前言
 
@@ -130,7 +130,8 @@ The e-mail address you entered (lynx http://localhost/bugzilla/xxx@gmail.com) di
 url: http://localhost:8124/bugzilla/rest.cgi/...  (這裡用 rect 會失敗！)  
 Auth: [Preferences] > [API Keys] 申請新 api，此處會用到寄信。所以使用前記得先開好
 
-## update log
 
-114  
-05.29 開文章
+## UPDATE LOG
+
+114.
+05/29 開文章  

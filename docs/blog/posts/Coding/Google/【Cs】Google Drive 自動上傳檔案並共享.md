@@ -9,7 +9,7 @@ tags:
   - Codinggg/Tools
   - Tools
 date: 2025-05-05 16:54:28
-updated: 2026-01-09 17:35:53
+updated: 2026-01-21 16:59:19
 ---
 ## 文前言
 
@@ -345,11 +345,7 @@ foreach (var filee in files)
 ## UPDATE LOG
 
 114.
-
 05/05 開新文
 
-
-
 115.
-
 01/09 加入 [服務帳戶](#服務帳戶) 段落

@@ -6,7 +6,7 @@ tags:
   - Codinggg/FTP
   - Codinggg/Lan/Cs
 date: 2025-02-12 09:23:50
-updated: 2025-08-15 10:31:18
+updated: 2026-01-21 17:00:14
 ---
 ## 文前言
 
@@ -265,6 +265,6 @@ static DateTime GetLatestModifiedTimeRecursive(SftpClient sftp, string path)
 嘗試寫點更新紀錄？
 
 114.
-- 0213 首次新增
-- 0507 加上 h 分隔標、擴充調整文章
-- 0512 加上 SFTP 版擴充文章、調整文章版面、移動文章內部路徑
+02/13 首次新增  
+05/07 加上 h 分隔標、擴充調整文章  
+05/12 加上 SFTP 版擴充文章、調整文章版面、移動文章內部路徑
