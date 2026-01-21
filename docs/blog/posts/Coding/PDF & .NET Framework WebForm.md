@@ -8,7 +8,7 @@ categories:
   - Tools
   - PDF
 date: 2025-01-17 11:34:04
-updated: 2025-08-15 10:32:12
+updated: 2026-01-21 17:10:13
 ---
 ## 文前言
 
@@ -139,7 +139,7 @@ ref: [c# - Combining multiple PDFs using PDFSharp - Stack Overflow](https://stac
 - 合併檔案使用：`PdfDocument outputDocument = new PdfDocument();`
 
 
-後端範例：(有包含 FTP 上傳)
+#### 後端範例：(有包含 FTP 上傳)
 
 ```cs
 using PdfSharp.Pdf;  
@@ -198,6 +198,22 @@ if (file.PostedFiles.Count > 1)
 
 這段感謝 ChatGPT 發想，個人再調整為想要的部分
 
+#### 來源路徑 改 stream
+
+開啟來源 PDF 文件  
+
+```cs
+using (PdfSharp.Pdf.PdfDocument sourceDocument 
+		= PdfReader.Open(pdf 路徑, PdfDocumentOpenMode.Import))  
+```
+
+=>
+```cs
+using (MemoryStream inputStream = new MemoryStream(fileBytes))  
+using (PdfSharp.Pdf.PdfDocument sourceDocument 
+		= PdfReader.Open(inputStream, PdfDocumentOpenMode.Import))
+```
+
 
 ### `PDFToImage`
 
@@ -206,7 +222,7 @@ if (file.PostedFiles.Count > 1)
 套件路徑：[NuGet Gallery | PDFtoImage 5.1.0-preview6](https://www.nuget.org/packages/PDFtoImage/5.1.0-preview6)  
 套件來源：[sungaila/PDFtoImage: A .NET library to render PDF files into images.](https://github.com/sungaila/PDFtoImage)
 
-簡易用法：  
+#### 簡易用法：  
 (pdf 路徑轉存 jpg 檔並存入指定路徑)
 ```cs
 using (FileStream inputStream 
@@ -216,7 +232,20 @@ using (FileStream inputStream
 }
 ```
 
-多頁轉檔 png：  
+其中
+```cs
+using (FileStream inputStream2 
+		= new FileStream(pdf 路徑, FileMode.Open, FileAccess.Read))  
+```
+
+=> (來源路徑 改 stream)
+```cs
+using (MemoryStream inputStream2 = new MemoryStream(fileBytes))
+```
+
+
+#### 多頁轉檔 png：
+
 (此段參考  
 原始碼內測試檔寫法：
 
@@ -254,9 +283,19 @@ private static Stream CreateOutputStream(string expectedPath)
 ```
 
 
-取得 pdf 頁數：  
+#### 取得 pdf 頁數：  
+
 ref: [PDFtoImage/src/PDFtoImage/PublicAPI/net481/PublicAPI.Shipped.txt at 26a33fcf18b1516926d6ff791fe9b3fbf9f2165f · sungaila/PDFtoImage](https://github.com/sungaila/PDFtoImage/blob/26a33fcf18b1516926d6ff791fe9b3fbf9f2165f/src/PDFtoImage/PublicAPI/net481/PublicAPI.Shipped.txt#L91)
 
 ```c#
 Conversion.GetPageCount(xxx);
 ```
+
+
+## UPDATE LOG
+
+114.
+01/20 開新篇 ([`TuesPechkin`](#`TuesPechkin`))
+
+115.
+01/19 更新結構 拉出h4、加上 來源路徑 改 stream 兩段落
