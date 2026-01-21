@@ -3,9 +3,13 @@ comments: true
 categories: []
 tags:
 date: 2025-11-14 11:46:06
-updated: 2025-11-25 17:07:56
+updated: 2026-01-21 17:00:01
 ---
-## 來自網路的整理表格
+## 主文
+
+### `.ToString()` 方法給參數
+
+來自網路的整理表格
 
 表格 ref: [[C#]常用ToString()方法 | 程式雜記](https://cshartuc.blogspot.com/2011/12/tostring-tostring-intdoubletostring-c-2.html)
 
@@ -22,7 +26,7 @@ updated: 2025-11-25 17:07:56
 | P   | 數字類型    | 百分比計數法       | 432,000.00%                              |
 | X   | 只用於整數類型 | 16進制格式       | 1120 (如果要顯示0x1120，需要寫上0x)                |
 
-## me 研究
+### me 研究
 
 N: (只保留純數字？)
 
@@ -35,3 +39,19 @@ aaa.ToString("N").Dump();
 //10b05e38-774c-4acd-9dfb-ade68b17f69e
 //10b05e38774c4acd9dfbade68b17f69e
 ```
+
+
+### 撈字串第一個字
+
+ref: [c# - How to get first char of a string? - Stack Overflow](https://stackoverflow.com/questions/3878820/how-to-get-first-char-of-a-string)
+
+在查到之前沒想到這麼簡單@@...
+
+
+## UPDATE LOG
+
+114.
+11/14 開新篇
+
+115.
+01/21 改篇名成整理所有字串用、加上 [撈字串第一個字](#撈字串第一個字)。
