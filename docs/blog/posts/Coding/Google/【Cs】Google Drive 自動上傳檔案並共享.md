@@ -9,7 +9,7 @@ tags:
   - Codinggg/Tools
   - Tools
 date: 2025-05-05 16:54:28
-updated: 2025-08-15 10:34:47
+updated: 2026-01-09 17:35:53
 ---
 ## 文前言
 
@@ -44,6 +44,60 @@ updated: 2025-08-15 10:34:47
 
 - [googleapis/google-api-dotnet-client: Google APIs Client Library for .NET](https://github.com/googleapis/google-api-dotnet-client)
 - [NuGet Gallery | Google.Apis.Drive.v3 1.69.0.3740](https://www.nuget.org/packages/Google.Apis.Drive.v3/1.69.0.3740)
+
+### 服務帳戶
+
+#### 建立服務帳戶
+
+1. 依照下圖，打開服務帳戶建立的入口點  
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-入口.png)
+
+點開後會看到：
+
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-列表.png)
+
+(上圖是因為已經建過帳戶了，所以才有一筆在)
+
+2. 點開 [+ 建立服務帳戶]  
+如下3圖，依序填入想要的名稱、ID、說明、權限、可存取主體  
+
+-1  
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-建立1.png)
+
+-2 權限  
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-建立2%20權限.png)  
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-建立2%20權限%20下拉.png)
+
+-3 具備存取權的主體
+
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-建立3%20存取%201使用者角色.png)  
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-建立3%20存取%202管理員角色.png)
+
+3. 點選 [完成]
+
+#### 建立金鑰
+
+建立好後應該如下圖：
+
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-列表-1.png)
+
+點選紅框進去
+
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-內容.png)  
+(上圖是已經建立金鑰成功後，才會出現一筆)
+
+點選 [建立新的金鑰]
+
+![](../../../../assets/images/CsGoogle%20Drive%20自動上傳檔案並共享_服務帳戶-金鑰.png)
+
+個人都選擇 JSON (因為沒用過 P12)
+
+按下 [建立]，就會自動下載 JSON 金鑰了。
+
+
+金鑰內容可以參考  
+- [Day 17 — Terraform/GCP基礎 — 設定 GCP 服務帳號 (Service Account) - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10332886)  
+該篇內的 [查看金鑰 key裡面的內容]，有詳細解說。
 
 ### 權限設定
 
@@ -96,8 +150,6 @@ protected void upload_ServerClick(object sender, EventArgs e)
     Upload();
 }
 ```
-
-
 
 #### 取得權限
 
@@ -287,3 +339,17 @@ foreach (var filee in files)
 [^fn4]: [如何透過 .NET 的 Google.Apis.Auth 套件來取得服務帳戶的 Access Token | The Will Will Web](https://blog.miniasp.com/post/2024/03/15/Gen-Access-Token-for-GCP-Service-Account-using-GoogleApisAuth)
 [^fn5]: ChatGPT
 [^fn6]: Claude
+
+
+
+## UPDATE LOG
+
+114.
+
+05/05 開新文
+
+
+
+115.
+
+01/09 加入 [服務帳戶](#服務帳戶) 段落
