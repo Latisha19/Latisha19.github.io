@@ -27,7 +27,6 @@ ref: [玩具烏托邦: 架設 bugzilla， 懶人版](https://newtoypia.blogspot.
 
 - [GitHub - bugzilla/bugzilla: Official repository for the Bugzilla bug tracking system. Report bugs to https://bugzilla.mozilla.org/enter_bug.cgi?product=Bugzilla&format=__default__ . Main website:](https://github.com/bugzilla/bugzilla)
 
-
 ### 架
 
 參考該網站使用 docker 的選項。
@@ -54,7 +53,7 @@ The e-mail address you entered (lynx http://localhost/bugzilla/xxx@gmail.com) di
 
 成功架起來的成果：
 
-![](assets/images/雜記自架%20BugZilla_bugzilla.png)
+![](/assets/images/雜記自架%20BugZilla_bugzilla.png)
 
 
 
@@ -127,7 +126,7 @@ The e-mail address you entered (lynx http://localhost/bugzilla/xxx@gmail.com) di
 
 直送 Insomnia:
 
-url: http://localhost:8124/bugzilla/rest.cgi/...  (這裡用 rect 會失敗！)  
+url: http://localhost:xx/bugzilla/rest.cgi/...  (這裡用 rect 會失敗！)  
 Auth: [Preferences] > [API Keys] 申請新 api，此處會用到寄信。所以使用前記得先開好
 
 
@@ -135,3 +134,4 @@ Auth: [Preferences] > [API Keys] 申請新 api，此處會用到寄信。所以�
 
 114.
 05/29 開文章  
+12/01 嘗試更新 [架](#架) 內圖片路徑、移除多餘 [api](#api) 內網址 port
